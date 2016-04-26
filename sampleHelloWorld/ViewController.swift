@@ -13,15 +13,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var myLabel: UILabel!
     @IBOutlet weak var tap_a: UIButton!
     @IBOutlet weak var tap_b: UIButton!
+    
+    //画面起動時、最初の１回だけ起きる
     override func viewDidLoad() {
         super.viewDidLoad()
         
         myLabel.text = "こんばんは！"
         
+        print(myLabel.text)
+        
         myLabel.text = "Good,evening!"
         
+        print(myLabel.text)
     
     }
+    
+    //buttonが押された時
     @IBAction func tap1(sender: UIButton) {
         myLabel.text = "thank you tap!"
         print("1タップ！")
@@ -31,7 +38,6 @@ class ViewController: UIViewController {
         myLabel.text = "tap!tap!tap!"
         print("2tap!")
     }
-//    println()
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
