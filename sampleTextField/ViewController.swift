@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 //            label1.text = textfield1.text
 //        }
         
-        //回答例
+        // 回答例
         
         let str = sender.text
         if let r = str!.rangeOfString("test"){
@@ -40,6 +40,9 @@ class ViewController: UIViewController {
         }else{
             label1.text = str
         }
+        // 入力後、入力欄を空にする
+        sender.text = " "
+        
     }
     
     @IBAction func reset2(sender: UIButton) {
