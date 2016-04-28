@@ -32,6 +32,16 @@ class ViewController: UIViewController {
 //            label1.text = textfield1.text
 //        }
         
+
+//        TODO:ポイント
+//        代入するのはlabelではなく、sender.textを
+//        入れるのに気づけるかどうか
+//        labelを代入すると表示されてから判定されるので
+//        1テンポ遅れたおかしな動作になる
+//        if文の条件分岐で何でもいいので定数or変数への代入式を書く
+//        この際、nilとの比較はしなくてもよい
+        
+        
         // 回答例
         
         let str = sender.text
