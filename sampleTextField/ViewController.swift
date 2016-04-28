@@ -23,16 +23,25 @@ class ViewController: UIViewController {
     //DidendOnExitに紐づくメソッドでキーボードが閉じる
     
     @IBAction func tapReturn(sender: UITextField) {
-        let st = label1.text
-//        var strin = tapReturn
-            print(st!.rangeOfString("test"))
-        if (st!.rangeOfString("test")) != nil{
+//        let st = label1.text
+////        var strin = tapReturn
+//            print(st!.rangeOfString("test"))
+//        if (st!.rangeOfString("test")) != nil{
+//            label1.text = "testです"
+//        }else{
+//            label1.text = textfield1.text
+//        }
+        
+        //回答例
+        
+        let str = sender.text
+        if let r = str!.rangeOfString("test"){
             label1.text = "testです"
         }else{
-            label1.text = textfield1.text
+            label1.text = str
         }
-        
     }
+    
     @IBAction func reset2(sender: UIButton) {
         label1.text = " "
     }
