@@ -45,9 +45,21 @@ class ViewController: UIViewController {
 //        for var n = 1; n <= 10; n++ {
 //            myTextView.text = myTextView.text + "こんにちは\(n)\r"
 //        }
+        
+        //　while文
+        var n = 0
+        while n < 10 {
+            myTextView.text = myTextView.text + "こんにちは\(n)\r"
+            n++
+        }
+        
 
     }
-
+    
+    @IBAction func tapClose(sender: UIButton) {
+        // キーボードを閉じる
+        myTextView.resignFirstResponder()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
