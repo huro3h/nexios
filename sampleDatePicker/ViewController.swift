@@ -17,6 +17,21 @@ class ViewController: UIViewController {
         // 選択肢を日付のみにセット
         myDatePicker.datePickerMode = UIDatePickerMode.Date
         
+        // デフォルトの初期値を今日以外に設定する方法
+        let df = NSDateFormatter()
+        
+        // 日付のフォーマットを指定
+        // スラッシュで区切る日付に(下で文字を日付として認識させる為に行っている)
+        df.dateFormat = "yyyy/MM/dd"
+        
+        // 2016/04/01を指定(文字からdate型に変更している)
+        myDatePicker.date = df.dateFromString("2016/04/01")!
+        
+        // 選択肢の範囲を指定する
+        // 最小値と最大値はnil(無限)でもエラーになることはない為 ! とか ? がなくても実は動く。
+        myDatePicker.minimumDate = df.dateFromString("2016/01/01")
+        myDatePicker.maximumDate = df.dateFromString("2016/12/31")
+        
     }
 
     override func didReceiveMemoryWarning() {
