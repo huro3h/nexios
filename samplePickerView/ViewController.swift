@@ -17,7 +17,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     @IBOutlet weak var myPicker: UIPickerView!
     
     // データ（選択肢）を「配列」で用意する
-    // 外に出したのはメソッド内で宣言した変数はそのメソッドの中でしか使えないから！
+    // viewDidLoadより外に出したのはメソッド内で宣言した変数はそのメソッドの中でしか使えないから！
     // メンバ変数（同じクラス内の複数メソッドで使用可能）
     var tealist = ["ダージリン","アールグレイ","アッサム","オレンジペコ","あったかいほうじ茶"]
     
@@ -59,6 +59,7 @@ class ViewController: UIViewController,UIPickerViewDataSource,UIPickerViewDelega
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         // 配列の行数ズレを表示で直す場合、変数をメソッド内で宣言後
         // カウントしている変数に1を足してやるとうまくいく
+		// バックスラッシュ\で文字列と変数または定数を結合 phpでいうドット.の役目)
         let i = row+1
         print("選択されたのは\(i)行目の\(tealist[row])です")
     }
