@@ -14,6 +14,7 @@
 		3C6EA8871CD33A72005996CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA8851CD33A72005996CE /* LaunchScreen.storyboard */; };
 		3C6EA8921CD33A72005996CE /* sampleImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA8911CD33A72005996CE /* sampleImageViewTests.swift */; };
 		3C6EA89D1CD33A72005996CE /* sampleImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA89C1CD33A72005996CE /* sampleImageViewUITests.swift */; };
+		3C6EA8AB1CD33EF5005996CE /* sample.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA8AA1CD33EF5005996CE /* sample.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C6EA8981CD33A72005996CE /* sampleImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6EA89C1CD33A72005996CE /* sampleImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleImageViewUITests.swift; sourceTree = "<group>"; };
 		3C6EA89E1CD33A73005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EA8AA1CD33EF5005996CE /* sample.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3C6EA8831CD33A72005996CE /* Assets.xcassets */,
 				3C6EA8851CD33A72005996CE /* LaunchScreen.storyboard */,
 				3C6EA8881CD33A72005996CE /* Info.plist */,
+				3C6EA8AA1CD33EF5005996CE /* sample.png */,
 			);
 			path = sampleImageView;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				3C6EA8871CD33A72005996CE /* LaunchScreen.storyboard in Resources */,
 				3C6EA8841CD33A72005996CE /* Assets.xcassets in Resources */,
 				3C6EA8821CD33A72005996CE /* Main.storyboard in Resources */,
+				3C6EA8AB1CD33EF5005996CE /* sample.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
