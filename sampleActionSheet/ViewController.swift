@@ -29,6 +29,20 @@ class ViewController: UIViewController {
 			style: .Default,
 			handler: { action in print("OK")}))
 		
+		// キャンセルボタン追加
+		// キャンセルボタンは下に少し間を空けて表示される
+		// キャンセルボタンはどこで書いても必ず一番下に表示
+		alertController.addAction(UIAlertAction(
+			title: "キャンセル",
+			style: .Cancel,
+			handler: { action in print("キャンセル")}))
+		
+		// 削除ボタン追加
+		alertController.addAction(UIAlertAction(
+			title: "削除",
+			style: .Destructive, //.の前は省略可
+			handler: { action in print("Destructive")}))
+		
 		// アクションシートを表示
 		presentViewController(alertController, animated: true, completion: nil)
 		}
