@@ -26,14 +26,15 @@ class ViewController: UIViewController {
 		alertController.addAction(UIAlertAction(
 			title: "ヨガ",
 			style: .Default,
-			handler: { action in self.myLabel.text = "ヨガ行こう！"}))
+			// 押した時に表示させる時は ↓ に入力
+			handler: { action in self.myAction("ヨガ")}))
 		
 		
 		// 通常ボタンを追加
 		alertController.addAction(UIAlertAction(
 			title: "バスケ",
 			style: .Default,
-			handler: { action in self.myLabel.text = "バスケ行こう！"}))
+			handler: { action in self.myAction("バスケ")}))
 		
 		// キャンセルボタン追加
 		// キャンセルボタンは下に少し間を空けて表示される
@@ -51,6 +52,13 @@ class ViewController: UIViewController {
 		
 		// アクションシートを表示
 		presentViewController(alertController, animated: true, completion: nil)
+		}
+	
+	// 通常ボタンを選択した時に呼ばれるメソッド
+	// 引数を使用して表示をスマートに！
+	func myAction(var activity:String){
+			myLabel.text = "\(activity)に行こう！"
+			// activity -> 指定されたアクティビティ名
 		}
 	
 	override func didReceiveMemoryWarning() {
