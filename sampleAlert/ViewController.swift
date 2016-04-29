@@ -34,6 +34,12 @@ class ViewController: UIViewController {
 			handler: { action in self.myCancel()}))
 			// print("キャンセル")　←これいらない
 		
+		// 削除ボタン追加？
+		alertController.addAction(UIAlertAction(
+			title: "削除",
+			style: UIAlertActionStyle.Destructive,
+			handler: {action in print("Destructive!")}))
+		
 		// アラートを表示する
 		// 実は画面の１つ、標準の画面の上に画面を乗せて表示させているイメージ
 		presentViewController(alertController, animated: true, completion: nil)
