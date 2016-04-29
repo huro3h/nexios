@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 	}
 
+	@IBOutlet weak var myLabel: UILabel!
 	
 	@IBAction func tapBtn(sender: UIButton) {
 		// アクションシートを作成
@@ -25,13 +26,14 @@ class ViewController: UIViewController {
 		alertController.addAction(UIAlertAction(
 			title: "ヨガ",
 			style: .Default,
-			handler: { action in print("OK")}))
+			handler: { action in self.myLabel.text = "ヨガ行こう！"}))
+		
 		
 		// 通常ボタンを追加
 		alertController.addAction(UIAlertAction(
 			title: "バスケ",
 			style: .Default,
-			handler: { action in print("OK")}))
+			handler: { action in self.myLabel.text = "バスケ行こう！"}))
 		
 		// キャンセルボタン追加
 		// キャンセルボタンは下に少し間を空けて表示される
@@ -39,13 +41,13 @@ class ViewController: UIViewController {
 		alertController.addAction(UIAlertAction(
 			title: "今日はやめとく",
 			style: .Cancel,
-			handler: { action in print("キャンセル")}))
+			handler: { action in self.myLabel.text = "そんなこと言わず行こう！"}))
 		
 		// 削除ボタン追加
 		alertController.addAction(UIAlertAction(
 			title: "ムエタイ",
 			style: .Destructive, //.の前は省略可
-			handler: { action in print("Destructive")}))
+			handler: { action in self.myLabel.text = "...行こう！"}))
 		
 		// アクションシートを表示
 		presentViewController(alertController, animated: true, completion: nil)
