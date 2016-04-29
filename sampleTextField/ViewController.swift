@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
+	
     @IBOutlet weak var textfield1: UITextField!
     @IBOutlet weak var label1: UILabel!
     @IBOutlet weak var resetButton: UIButton!
@@ -40,7 +40,6 @@ class ViewController: UIViewController {
 //        1テンポ遅れたおかしな動作になる
 //        if文の条件分岐で何でもいいので定数or変数への代入式を書く
 //        この際、nilとの比較はしなくてもよい
-        
         
         // 回答例
         
