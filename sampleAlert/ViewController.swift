@@ -12,9 +12,24 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
 	}
 
+	@IBAction func tapBtn(sender: UIButton) {
+		// アラートを作る
+		var alertController = UIAlertController(title: "タイトル", message: "めっせーじ", preferredStyle: .Alert)
+		
+		// OKボタンを追加する
+		alertController.addAction(UIAlertAction(
+			title: "OK",
+			style: .Default,
+			handler: {action in print("OK")}
+			))
+		
+		// アラートを表示する
+		presentViewController(alertController, animated: true, completion: nil)
+		
+		
+	}
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
