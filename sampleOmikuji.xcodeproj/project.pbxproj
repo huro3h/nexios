@@ -14,6 +14,7 @@
 		3C6EA8C31CD340B0005996CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA8C11CD340B0005996CE /* LaunchScreen.storyboard */; };
 		3C6EA8CE1CD340B1005996CE /* sampleOmikujiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA8CD1CD340B1005996CE /* sampleOmikujiTests.swift */; };
 		3C6EA8D91CD340B1005996CE /* sampleOmikujiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA8D81CD340B1005996CE /* sampleOmikujiUITests.swift */; };
+		3C6EA8E71CD35176005996CE /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA8E61CD35176005996CE /* 0.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C6EA8D41CD340B1005996CE /* sampleOmikujiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleOmikujiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6EA8D81CD340B1005996CE /* sampleOmikujiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleOmikujiUITests.swift; sourceTree = "<group>"; };
 		3C6EA8DA1CD340B1005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EA8E61CD35176005996CE /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3C6EA8BF1CD340B0005996CE /* Assets.xcassets */,
 				3C6EA8C11CD340B0005996CE /* LaunchScreen.storyboard */,
 				3C6EA8C41CD340B0005996CE /* Info.plist */,
+				3C6EA8E61CD35176005996CE /* 0.png */,
 			);
 			path = sampleOmikuji;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 				3C6EA8C31CD340B0005996CE /* LaunchScreen.storyboard in Resources */,
 				3C6EA8C01CD340B0005996CE /* Assets.xcassets in Resources */,
 				3C6EA8BE1CD340B0005996CE /* Main.storyboard in Resources */,
+				3C6EA8E71CD35176005996CE /* 0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
