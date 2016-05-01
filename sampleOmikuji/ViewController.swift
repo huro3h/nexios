@@ -10,7 +10,7 @@ class ViewController: UIViewController {
 	
 	@IBOutlet weak var myImageView: UIImageView!
 	// 占いの結果を配列で用意する
-	var omikuji = ["大吉","中吉","小吉","末吉","吉","凶","大凶"]
+	var omikuji = ["大吉","中吉","吉","小吉","末吉","凶","大凶"]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
