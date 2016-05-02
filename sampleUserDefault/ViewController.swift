@@ -12,7 +12,15 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		// ユーザーデフォルトから保存されたデータを取り出す
+		var myDefault = NSUserDefaults.standardUserDefaults()
+		
+		// データを呼び出して(↑でオブジェクト化したもの)
+		var myStr = myDefault.stringForKey("myString")
+		
+		// 文字列が入っていたら表示する
+		print(myStr)
 	}
 	@IBAction func tapReturn(sender: UITextField) {
 		
