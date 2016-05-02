@@ -10,8 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var myTextField: UITextField!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		
 		
 		// ユーザーデフォルトから保存されたデータを取り出す
 		var myDefault = NSUserDefaults.standardUserDefaults()
@@ -21,6 +25,7 @@ class ViewController: UIViewController {
 		
 		// 文字列が入っていたら表示する
 		print(myStr)
+		myTextField.text = myStr // 取り出した文字を表示
 	}
 	@IBAction func tapReturn(sender: UITextField) {
 		
