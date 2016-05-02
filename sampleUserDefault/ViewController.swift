@@ -19,10 +19,10 @@ class ViewController: UIViewController {
 		// ユーザーデフォルトを用意する(情報の保管場所を用意)
 		var myDefault = NSUserDefaults.standardUserDefaults()
 		
-		// データを書き込んで
+		// データを書き込んで("myString"箱の名前)
 		myDefault.setObject(sender.text, forKey: "myString")
 		
-		// 即反映させる(すぐ使いたい時はこの手順を踏む)
+		// 即反映させる(きちんと保存して使用時すぐ出せるように)
 		myDefault.synchronize()
 		
 	}
