@@ -41,6 +41,9 @@ class ViewController: UIViewController {
 	
 	// 引数を一つ追加するとgood!
 	func kekka(var r:Int){
+		// myImageView.image = UIImage(named: "\(r).png")
+		// 文字連結の方法、これを書けば１行で処理可能 ↑
+
 		switch r{
 		case 0:
 			myImageView.image = UIImage(named: "0.png")
@@ -60,7 +63,6 @@ class ViewController: UIViewController {
 			break
 		}
 		
-
 	}
 
 
