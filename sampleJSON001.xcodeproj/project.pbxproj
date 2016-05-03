@@ -14,6 +14,7 @@
 		3C6EAA2F1CD88822005996CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EAA2D1CD88822005996CE /* LaunchScreen.storyboard */; };
 		3C6EAA3A1CD88822005996CE /* sampleJSON001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EAA391CD88822005996CE /* sampleJSON001Tests.swift */; };
 		3C6EAA451CD88822005996CE /* sampleJSON001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EAA441CD88822005996CE /* sampleJSON001UITests.swift */; };
+		3C6EAA531CD88890005996CE /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EAA521CD88890005996CE /* json.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C6EAA401CD88822005996CE /* sampleJSON001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleJSON001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6EAA441CD88822005996CE /* sampleJSON001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleJSON001UITests.swift; sourceTree = "<group>"; };
 		3C6EAA461CD88822005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EAA521CD88890005996CE /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				3C6EAA2B1CD88822005996CE /* Assets.xcassets */,
 				3C6EAA2D1CD88822005996CE /* LaunchScreen.storyboard */,
 				3C6EAA301CD88822005996CE /* Info.plist */,
+				3C6EAA521CD88890005996CE /* json.txt */,
 			);
 			path = sampleJSON001;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6EAA531CD88890005996CE /* json.txt in Resources */,
 				3C6EAA2F1CD88822005996CE /* LaunchScreen.storyboard in Resources */,
 				3C6EAA2C1CD88822005996CE /* Assets.xcassets in Resources */,
 				3C6EAA2A1CD88822005996CE /* Main.storyboard in Resources */,
