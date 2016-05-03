@@ -20,6 +20,11 @@ class ViewController: UIViewController {
 		print("タップされたよ！")
 	}
 	
+
+	@IBAction func tapColor(sender:
+		UITapGestureRecognizer) {
+		print("色付きがタップされました")
+	}
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.

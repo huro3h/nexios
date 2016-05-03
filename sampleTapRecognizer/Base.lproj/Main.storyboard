@@ -16,6 +16,16 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CEA-eH-swk">
+                                <rect key="frame" x="40" y="55" width="240" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="81O-PY-1xG" appends="YES" id="ogT-v2-0ih"/>
+                                </connections>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <connections>
@@ -30,8 +40,30 @@
                         <action selector="tapView:" destination="BYZ-38-t0r" id="dvQ-1v-Xwt"/>
                     </connections>
                 </tapGestureRecognizer>
+                <tapGestureRecognizer id="81O-PY-1xG">
+                    <connections>
+                        <action selector="tapColor:" destination="BYZ-38-t0r" id="wih-w5-WT7"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="230" y="316"/>
+            <point key="canvasLocation" x="239" y="306"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yfF-eJ-hrn">
+            <objects>
+                <viewController id="OoV-Rb-vDo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H3j-fi-GVD"/>
+                        <viewControllerLayoutGuide type="bottom" id="eZM-EM-peP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Tu-2D-baT">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cp4-5s-d3l" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
 </document>
