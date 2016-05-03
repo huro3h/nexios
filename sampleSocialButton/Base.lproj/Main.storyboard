@@ -25,14 +25,18 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lgx-gW-Dqm">
-                                <rect key="frame" x="108" y="364" width="105" height="30"/>
-                                <state key="normal" title="Twitter"/>
+                                <rect key="frame" x="108" y="156" width="105" height="30"/>
+                                <state key="normal" title="Facebook"/>
+                                <connections>
+                                    <action selector="tapFacebookBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MgF-Y0-jjG"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="fbBtn" destination="lgx-gW-Dqm" id="v80-2Y-Jyd"/>
                         <outlet property="twitterBtn" destination="kCV-jL-OCv" id="AN3-fs-Eql"/>
                     </connections>
                 </viewController>

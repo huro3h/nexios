@@ -15,6 +15,7 @@ import Social
 class ViewController: UIViewController {
 
 	@IBOutlet weak var twitterBtn: UIButton!
+	@IBOutlet weak var fbBtn: UIButton!
 	
 	
 	override func viewDidLoad() {
@@ -25,11 +26,32 @@ class ViewController: UIViewController {
 	@IBAction func tapTwitterBtn(sender: UIButton) {
 		// print("おされたよ")
 		
+		// forServiceTypeで何についてかを書いている
 		var twitterVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
 		twitterVC.setInitialText("twitterでつぶやくよてすと")
 		presentViewController(twitterVC, animated: true, completion: nil)
-	
 	}
+	
+	
+	
+	@IBAction func tapFacebookBtn(sender: UIButton) {
+	
+	// TODO:FBのシェアボタンを作ろう
+		var facebookVC = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+		facebookVC.setInitialText("Facebookでつぶやくよてすと (iOS)")
+		presentViewController(facebookVC, animated: true, completion: nil)
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
