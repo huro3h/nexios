@@ -17,8 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qpH-7Y-cei">
-                                <rect key="frame" x="9" y="20" width="304" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="unlessEditing" translatesAutoresizingMaskIntoConstraints="NO" id="qpH-7Y-cei">
+                                <rect key="frame" x="8" y="28" width="243" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="search"/>
                                 <connections>
@@ -26,19 +26,34 @@
                                 </connections>
                             </textField>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cuu-A2-oER">
-                                <rect key="frame" x="9" y="53" width="304" height="507"/>
+                                <rect key="frame" x="8" y="76" width="304" height="484"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <gestureRecognizers/>
                             </webView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wH1-xn-7vV">
+                                <rect key="frame" x="267" y="28" width="30" height="30"/>
+                                <state key="normal" title="FB"/>
+                                <connections>
+                                    <action selector="tapFBButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9BW-Ld-KXy"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="myFBShare" destination="wH1-xn-7vV" id="iVN-DP-tBd"/>
+                        <outlet property="mySwipe" destination="FtV-1u-hHo" id="SxD-iR-qVF"/>
                         <outlet property="myTextField" destination="qpH-7Y-cei" id="OOP-i0-wsC"/>
                         <outlet property="myWebView" destination="Cuu-A2-oER" id="eKT-h6-VGG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="down" id="FtV-1u-hHo">
+                    <connections>
+                        <action selector="closeKeyboard:" destination="BYZ-38-t0r" id="rgI-a2-gbd"/>
+                    </connections>
+                </swipeGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="186" y="59"/>
         </scene>

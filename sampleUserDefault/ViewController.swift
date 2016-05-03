@@ -7,14 +7,15 @@
 //
 
 import UIKit
+import Social
 
 class ViewController: UIViewController {
 
 	@IBOutlet weak var myTextField: UITextField!
 	@IBOutlet weak var myWebView: UIWebView!
-	
+	@IBOutlet var mySwipe: UISwipeGestureRecognizer!
+	@IBOutlet weak var myFBShare: UIButton!
 
-	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
 		// print(myStr)
 		myTextField.text = myStr // 取り出した文字を表示
 	}
+	
 	
 	@IBAction func tapReturn(sender: UITextField) {
 		if myTextField.text == "" {
@@ -67,11 +69,39 @@ class ViewController: UIViewController {
 		
 			// webViewにセット
 			myWebView.loadRequest(myURLReq)
-		
-		
-//		override func didReceiveMemoryWarning() {
-//			super.didReceiveMemoryWarning()
-//			// Dispose of any resources that can be recreated.
-//		}
+		}
+
+		@IBAction func closeKeyboard(sender: UISwipeGestureRecognizer) {
+			self.view.endEditing(true)
+		}
+	
+		@IBAction func tapFBButton(sender: UIButton) {
+			let FacebookVC = SLComposeViewController(forServiceType: SLServiceTypeFacebook)
+			
+			if let tmpStr =  myTextField.text{
+				let url = NSURL(string: tmpStr)
+				FacebookVC.addURL(url)
+			}
+			
+			presentViewController(FacebookVC, animated: true, completion: nil)
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	override func didReceiveMemoryWarning() {
+			super.didReceiveMemoryWarning()
+			// Dispose of any resources that can be recreated.
+		}
 	}
-}
+
