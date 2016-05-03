@@ -25,6 +25,8 @@ class ViewController: UIViewController {
 		var jsondata = NSData(contentsOfFile: path!)
 		
 		// 配列データに変換するよ(読めるデータにして返す)
+		// try!(例外処理: エラーが起こった時に()で囲んだ部分を処理する =nilにして返す)
+		// 結果変なエラーが起こりにくくなる [Swift2.0〜]
 		let jsonArray = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as!
 		NSArray
 		
