@@ -37,6 +37,7 @@ class ViewController: UIViewController {
 	// この画面に戻ってきた時
 	@IBAction func returnMenu(segue: UIStoryboardSegue) {
 		// myCount変数に、前の画面のtmpCountの値を受け取って
+		// 戻ってきてる時に上記と逆の動きをしている。↓ ここ重要！
 		let newVC = segue.sourceViewController as! SecondViewController
 		myCount = newVC.tmpCount
 		// カウントアップして
