@@ -16,7 +16,7 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+
     }
 
 	// 画面が表示された時カウントアップした数字を渡す<\(tmpCount)>

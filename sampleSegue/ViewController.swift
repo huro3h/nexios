@@ -18,14 +18,14 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 	}
 	
-	// 画面が切り替わる時
+	// 画面が切り替わる時(segueの頭を　↓大文字で書かないように注意)
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-		// もしセグエの名前がmySegueだったら(segueの頭を大文字で書かないように注意)
+		// もしセグエの名前がmySegueだったら
 		if (segue.identifier=="mySegue"){
 			// カウントアップして
 			myCount++
 			// 次の画面のtmpCountに、myCountの値を受け渡す
-			// エラー出る理由 移動先のViewController名が間違っているから
+			// (もしここでエラー出るなら たぶん  移動先のViewController名が間違っている
 			var newVC = segue.destinationViewController as! SecondViewController
 			
 			// 次画面のtmpCountにmyCountの値を代入している
