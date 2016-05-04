@@ -14,6 +14,7 @@
 		3C6EAA6B1CD97662005996CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EAA691CD97662005996CE /* LaunchScreen.storyboard */; };
 		3C6EAA761CD97662005996CE /* sampleJSON002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EAA751CD97662005996CE /* sampleJSON002Tests.swift */; };
 		3C6EAA811CD97662005996CE /* sampleJSON002UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EAA801CD97662005996CE /* sampleJSON002UITests.swift */; };
+		3C6EAA8F1CD976A2005996CE /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EAA8E1CD976A2005996CE /* json.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		3C6EAA7C1CD97662005996CE /* sampleJSON002UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleJSON002UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6EAA801CD97662005996CE /* sampleJSON002UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleJSON002UITests.swift; sourceTree = "<group>"; };
 		3C6EAA821CD97662005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EAA8E1CD976A2005996CE /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				3C6EAA601CD97662005996CE /* AppDelegate.swift */,
 				3C6EAA621CD97662005996CE /* ViewController.swift */,
+				3C6EAA8E1CD976A2005996CE /* json.txt */,
 				3C6EAA641CD97662005996CE /* Main.storyboard */,
 				3C6EAA671CD97662005996CE /* Assets.xcassets */,
 				3C6EAA691CD97662005996CE /* LaunchScreen.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C6EAA8F1CD976A2005996CE /* json.txt in Resources */,
 				3C6EAA6B1CD97662005996CE /* LaunchScreen.storyboard in Resources */,
 				3C6EAA681CD97662005996CE /* Assets.xcassets in Resources */,
 				3C6EAA661CD97662005996CE /* Main.storyboard in Resources */,
