@@ -21,7 +21,7 @@
                                 <rect key="frame" x="145" y="76" width="30" height="30"/>
                                 <state key="normal" title="移動"/>
                                 <connections>
-                                    <segue destination="6Si-Jw-TxU" kind="show" id="dO5-bk-Ser"/>
+                                    <segue destination="6Si-Jw-TxU" kind="presentation" id="MLX-aR-dz2"/>
                                 </connections>
                             </button>
                         </subviews>
