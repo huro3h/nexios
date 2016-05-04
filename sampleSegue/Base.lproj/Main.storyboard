@@ -21,7 +21,7 @@
                                 <rect key="frame" x="145" y="76" width="30" height="30"/>
                                 <state key="normal" title="移動"/>
                                 <connections>
-                                    <segue destination="6Si-Jw-TxU" kind="presentation" id="MLX-aR-dz2"/>
+                                    <segue destination="6Si-Jw-TxU" kind="presentation" identifier="mySegue" id="MLX-aR-dz2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -44,11 +44,21 @@
                     <view key="view" contentMode="scaleToFill" id="btr-1U-9op">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="off-LO-guS">
+                                <rect key="frame" x="28" y="20" width="30" height="30"/>
+                                <state key="normal" title="戻る"/>
+                                <connections>
+                                    <segue destination="HPX-1A-YXO" kind="unwind" unwindAction="returnMenu:" id="XFI-8Z-VQ4"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bo9-Hj-p7Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="HPX-1A-YXO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="592" y="331"/>
         </scene>
