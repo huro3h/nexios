@@ -44,6 +44,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
 		print("\(indexPath.row)行目を選択")
 	}
 	
+	// 4.ステータスバーを非表示にする
+//	override func prefersStatusBarHidden() -> Bool {
+//		return true
+//	}
+	
 	
 	
 	
