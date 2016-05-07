@@ -17,8 +17,6 @@ class FirstViewController: UIViewController {
 		// appearに書くと毎回設定されてしまい、余計な処理が発生する
 		print("F.V.Controllerが起動されました！")
 		
-		
-		
 		// バッジを表示させる！
 		// tabBarItem.badgeValue = "\(myAp.myCount)"
 	}
@@ -30,12 +28,11 @@ class FirstViewController: UIViewController {
 		tabBarItem.badgeValue = "\(myAp.myCount)"
 	}
 
-		// 画面切り替わり時にバッジ消す
+	
 	override func viewWillDisappear(animated: Bool){
+		// 画面切り替わり時にバッジ消す
 		tabBarItem.badgeValue = nil
 	
-		
-		
 		// 2.AppDelegateにアクセスする為の準備をして
 		var myAp = UIApplication.sharedApplication().delegate as! AppDelegate
 		// 3.プロパティの値を書き換える

@@ -17,6 +17,8 @@ class SecondViewController: UIViewController {
 
 	// Appear（表示される度に処理が実行される）
 	override func viewWillAppear(animated: Bool) {
+		
+		
 		// print("F.V.Controllerが「表示」されました！")
 		// 2.AppDelegateにアクセスする為の準備をして
 		var myAp = UIApplication.sharedApplication().delegate as! AppDelegate
