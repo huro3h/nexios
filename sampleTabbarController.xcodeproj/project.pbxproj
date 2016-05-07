@@ -15,6 +15,7 @@
 		3C014C561CDB1474009C0B0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C014C541CDB1474009C0B0C /* LaunchScreen.storyboard */; };
 		3C014C611CDB1474009C0B0C /* sampleTabbarControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C014C601CDB1474009C0B0C /* sampleTabbarControllerTests.swift */; };
 		3C014C6C1CDB1474009C0B0C /* sampleTabbarControllerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C014C6B1CDB1474009C0B0C /* sampleTabbarControllerUITests.swift */; };
+		3C014DEE1CDDCAAA009C0B0C /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C014DED1CDDCAAA009C0B0C /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3C014C671CDB1474009C0B0C /* sampleTabbarControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTabbarControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C014C6B1CDB1474009C0B0C /* sampleTabbarControllerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTabbarControllerUITests.swift; sourceTree = "<group>"; };
 		3C014C6D1CDB1474009C0B0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C014DED1CDDCAAA009C0B0C /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				3C014C491CDB1474009C0B0C /* AppDelegate.swift */,
 				3C014C4B1CDB1474009C0B0C /* FirstViewController.swift */,
 				3C014C4D1CDB1474009C0B0C /* SecondViewController.swift */,
+				3C014DED1CDDCAAA009C0B0C /* thirdViewController.swift */,
 				3C014C4F1CDB1474009C0B0C /* Main.storyboard */,
 				3C014C521CDB1474009C0B0C /* Assets.xcassets */,
 				3C014C541CDB1474009C0B0C /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				3C014C4E1CDB1474009C0B0C /* SecondViewController.swift in Sources */,
 				3C014C4A1CDB1474009C0B0C /* AppDelegate.swift in Sources */,
+				3C014DEE1CDDCAAA009C0B0C /* thirdViewController.swift in Sources */,
 				3C014C4C1CDB1474009C0B0C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,6 +490,7 @@
 				3C014C721CDB1474009C0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C014C731CDB1474009C0B0C /* Build configuration list for PBXNativeTarget "sampleTabbarControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				3C014C751CDB1474009C0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C014C761CDB1474009C0B0C /* Build configuration list for PBXNativeTarget "sampleTabbarControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				3C014C781CDB1474009C0B0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
