@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+	@IBOutlet weak var hyouji: UILabel!
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view, typically from a nib.
@@ -26,7 +27,7 @@ class ViewController: UIViewController {
 		// as データ型で指定したデータ型に変換(ダウンキャスト)
 		let jsonDictionary = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as! NSDictionary
 		
-		// 辞書データの個数だけ繰り返して表示する(この場合2回:理由以下に記載)
+		// 辞書データの個数だけ繰り返して表示する(この場合2回回す:理由以下に記載)
 		for (key, data) in jsonDictionary {
 			var d1 = data["餅"] as! String
 			var d2 = data["醤油"] as! String
@@ -37,6 +38,9 @@ class ViewController: UIViewController {
 			print("キー[\(key)] 醤油=[\(d2)]")
 			print("キー[\(key)] 月見団子=[\(d3)]")
 			// json.txtを記号で値を揃えると読み込んだ...けどなんで(・ω・)？
+			// "切り餅"の値を出したい時 ↓
+			hyouji.text = jsonDictionary["関東"]!["餅"] as? String
+			
 		}
 	}
 
