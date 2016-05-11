@@ -18,16 +18,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei1-rK-y2q">
-                                <rect key="frame" x="329" y="637" width="46" height="30"/>
+                                <rect key="frame" x="329" y="275" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="tapBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bM0-1k-qss"/>
+                                    <action selector="tapBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sTd-fj-PPd"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myBtn" destination="Ei1-rK-y2q" id="xfU-f0-atb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
