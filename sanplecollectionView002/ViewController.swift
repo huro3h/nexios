@@ -9,9 +9,45 @@
 import UIKit
 
 class ViewController: UIViewController,UICollectionViewDataSource,UICollectionViewDelegate{
-
+	
+	// 5.中身がDictionary型の配列
+	var musicList:[NSDictionary] = []
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
+		// 1.iTunesのAPIからLadyGagaの情報を20件取得する!
+		// 2.info.plistの項目を変更しないとURLが表示されない(セキュリティ対策の為)
+		var url = NSURL(string: "http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?term=oasis&limit=21")
+		
+		// ここからjsonデータを取得し、ディクショナリー型のデータを受け取り、表示する！
+		// 3.APIにリクエスト！
+		var request = NSURLRequest(URL: url!)
+		
+		// 4.JSONデータを取得
+		var jsondata = (try! NSURLConnection.sendSynchronousRequest(request, returningResponse: nil))
+		
+		// 5.Dictionary型のデータを取得(読めなかった辞書データを読めるように変換！)
+		let jsonDictionary = (try! NSJSONSerialization.JSONObjectWithData(jsondata, options: [])) as! NSDictionary
+		
+		// 6.ここから必要な情報だけを取得する(今のままだといっぱい入ったまま)
+		for (key, data) in jsonDictionary {
+			if (key as! String == "results"){
+				// 曲データとCDジャケット画像を取得!
+				var resultArray = data as! NSArray
+				
+				for eachMusic in resultArray{
+					print(eachMusic["trackName"])
+					print(eachMusic["artworkUrl100"])
+					
+					// Dictionary型に1セットにして表示の準備を！
+					var newMusic:NSDictionary = ["name":eachMusic["trackName"] as! String, "image":eachMusic["artworkUrl100"] as! String]
+					
+					// 一曲分のDictionaryを追加
+					musicList.append(newMusic)
+				}
+			}
+		}
 	}
 	
 	func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
