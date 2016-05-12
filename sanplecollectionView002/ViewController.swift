@@ -18,7 +18,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 		
 		// 1.iTunesのAPIからLadyGagaの情報を20件取得する!
 		// 2.info.plistの項目を変更しないとURLが表示されない(セキュリティ対策の為)
-		var url = NSURL(string: "http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?term=oasis&limit=21")
+		var url = NSURL(string: "http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?term=oasis&limit=60")
 		
 		// ここからjsonデータを取得し、ディクショナリー型のデータを受け取り、表示する！
 		// 3.APIにリクエスト！
@@ -43,6 +43,9 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 					// Dictionary型に1セットにして表示の準備を！
 					var newMusic:NSDictionary = ["name":eachMusic["trackName"] as! String, "image":eachMusic["artworkUrl100"] as! String]
 					
+					//var songtitle = ["name":eachMusic["trackName"] as! String]
+					//var songpic = ["image":eachMusic["artworkUrl100"] as! String]
+					
 					// 一曲分のDictionaryを追加
 					musicList.append(newMusic)
 				}
@@ -55,7 +58,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 	}
 	
 	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-		return 21
+		return 42
 	}
 	
 	func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -63,8 +66,22 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 		// cellの名前変えたからここで変換するよ！
 		let cell: customCell = collectionView.dequeueReusableCellWithReuseIdentifier("cell", forIndexPath: indexPath) as! customCell
 		
-		cell.title.text = "No.\(indexPath.row)"
-		cell.image.image = UIImage(named: "aa6.png")
+		// *URLからNSURL(画像のURL)を生成するよ！
+		let url = NSURL(string: musicList[indexPath.row]["image"] as! String);
+		
+		// *エラーが起きた時の原因を表示？
+		var err: NSError?;
+		
+		// *URLを読めるように変換？
+		let imageData :NSData = (try! NSData(contentsOfURL:url!,options: NSDataReadingOptions.DataReadingMappedIfSafe));
+		
+		// *変数に表示できるURLを代入？
+		var img = UIImage(data:imageData);
+		
+		// cell.title.text = "No.\(indexPath.row)"
+		// cell.image.image = UIImage(named: "aa6.png")
+		cell.title.text =  musicList[indexPath.row]["name"] as! String;
+		cell.image.image = img
 		
 		cell.backgroundColor = UIColor.whiteColor()
 		
