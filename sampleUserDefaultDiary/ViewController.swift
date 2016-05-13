@@ -15,28 +15,40 @@ class ViewController: UIViewController {
 	@IBOutlet weak var txtDiary: UILabel!
 	@IBOutlet weak var btnSave: UIButton!
 	
-	var diaryList = ["title1","title2","title3"]
+	// var diaryList = ["title1","title2","title3"] //メンバ変数、要復習！
+	// jsonでは{}使用だが、xcodeでは[]使用
+	var diaryList =
+		[["title":"title1","date":"2016-5-13"],
+		["title":"title2","date":"2016-5-14"],
+		["title":"title3","date":"2016-5-15"]]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		print(diaryList)
+		
+		// 番外.UserDefault全削除する
+		
+		
 		
 		// 8.ユーザーデフォルトから保存されたデータを取り出す
 		var myDefault = NSUserDefaults.standardUserDefaults()
 		
-		// 9.データを呼び出して(↑でオブジェクト化したもの)
-		diaryList = myDefault.objectForKey("diaryList") as! [String]
-	
+		// nilが存在するケース(一番最初、何もデータが入力されていない時=保存ボタンが１回も押されていない時)
+		if (myDefault.objectForKey("diaryList") != nil){
+		
+			// 9.データを呼び出して、その後ろに新たなタイトルを追加
+			diaryList = myDefault.objectForKey("diaryList") as! [Dictionary]
+		}
 	}
 	
 	// 2.保存ボタン作成
 	@IBAction func tapBtnSave(sender: UIButton) {
 		
 		// 3.タイトルを追加
-		diaryList.append(txtTitle.text!)
+		diaryList.append(["title":txtTitle.text!,"date":txtDate.text!])
+		
 		print(diaryList)
 		
-		// 4.ここからUserDefaltに保存
+		// 4.ここからUserDefaltに保存作業
 		// 5.ユーザーデフォルトを用意する(情報の保管場所を用意)
 		var myDefault = NSUserDefaults.standardUserDefaults()
 		
