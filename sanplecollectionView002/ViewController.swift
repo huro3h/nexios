@@ -14,7 +14,7 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		// 1.iTunesのAPIからLadyGagaの情報を20件取得する!
+		// 1.iTunesのAPIからOasis(LadyGaga)の情報を20件取得する!
 		// 2.info.plistの項目を変更しないとURLが表示されない(セキュリティ対策の為)
 		var url = NSURL(string: "http://ax.itunes.apple.com/WebObjects/MZStoreServices.woa/wa/wsSearch?term=oasis&limit=60")
 		
@@ -67,23 +67,34 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 		// *URLからNSURL(画像のURL)を生成するよ！
 		let url = NSURL(string: musicList[indexPath.row]["image"] as! String);
 		
-		// *エラーが起きた時の原因を表示？
+		// *エラーが起きた時の原因を表示？(危険なやつを取り込まない)
 		var err: NSError?;
 		
-		// *URLを読めるように変換？
+		// *URLを読めるように変換？(取得してきてるデータは画像ファイルなので、以下で読めるように変換)
 		let imageData :NSData = (try! NSData(contentsOfURL:url!,options: NSDataReadingOptions.DataReadingMappedIfSafe));
 		
-		// *変数に表示できるURLを代入？
+		// *変数に表示できるURLを代入？(NSData型からUIImage型に変換している)
 		var img = UIImage(data:imageData);
 		
 		// cell.title.text = "No.\(indexPath.row)"
 		// cell.image.image = UIImage(named: "aa6.png")
+		
+		// musiclistから[0行目の][タイトル名]を表示
 		cell.title.text =  musicList[indexPath.row]["name"] as! String;
 		cell.image.image = img
 		
 		cell.backgroundColor = UIColor.whiteColor()
 		
 		return cell
+		
+		func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+			return 1
+		}
+		
+		// musicList.countとすることで、柔軟にカウントしてくれる
+		func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+			return musicList.count;
+		}
 		
 	}
 
@@ -112,10 +123,10 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 	
 	
 	
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
+//	override func didReceiveMemoryWarning() {
+//		super.didReceiveMemoryWarning()
+//		// Dispose of any resources that can be recreated.
+//	}
 
 
 }
