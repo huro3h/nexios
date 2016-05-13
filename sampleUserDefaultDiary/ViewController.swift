@@ -25,12 +25,14 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
-		// 番外.UserDefault全削除する
-		
-		
-		
 		// 8.ユーザーデフォルトから保存されたデータを取り出す
 		var myDefault = NSUserDefaults.standardUserDefaults()
+		
+		// 番外.UserDefault全削除する(1回実行させたらコメントアウトさせておくこと。)
+		// でないと常に全削除しちゃう...(´・ω・`)
+		var appDomein:String = NSBundle.mainBundle().bundleIdentifier!
+		myDefault.removePersistentDomainForName(appDomein)
+		
 		
 		// nilが存在するケース(一番最初、何もデータが入力されていない時=保存ボタンが１回も押されていない時)
 		if (myDefault.objectForKey("diaryList") != nil){
