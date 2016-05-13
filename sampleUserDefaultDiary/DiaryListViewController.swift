@@ -53,7 +53,12 @@ class DiaryListViewController: UIViewController,UITableViewDelegate,UITableViewD
 	{
 		// reuseIdentifier: "myCell" -> Main.storyboardのIdentifireと同じ名前に！
 		let cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
-		cell.textLabel!.text = "\(diaryListTmp[indexPath.row]["title"])"
+		
+		let title:String = diaryListTmp[indexPath.row]["title"]!
+		
+		cell.textLabel!.text = "\(title)"
+		
+		
 		return cell
 	}
 	
