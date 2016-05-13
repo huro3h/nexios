@@ -20,6 +20,12 @@ class ViewController: UIViewController {
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		print(diaryList)
+		
+		// 8.ユーザーデフォルトから保存されたデータを取り出す
+		var myDefault = NSUserDefaults.standardUserDefaults()
+		
+		// 9.データを呼び出して(↑でオブジェクト化したもの)
+		diaryList = myDefault.objectForKey("diaryList") as! [String]
 	
 	}
 	
@@ -30,16 +36,16 @@ class ViewController: UIViewController {
 		diaryList.append(txtTitle.text!)
 		print(diaryList)
 		
-		// 4.UserDefaltに保存
-		
-		// ユーザーデフォルトを用意する(情報の保管場所を用意)
+		// 4.ここからUserDefaltに保存
+		// 5.ユーザーデフォルトを用意する(情報の保管場所を用意)
 		var myDefault = NSUserDefaults.standardUserDefaults()
 		
-		// データを書き込んで("myString"箱の名前)
+		// 6.データを書き込んで("myString"箱の名前)
 		myDefault.setObject(diaryList, forKey: "diaryList")
 		
-		// 即反映させる(きちんと保存して使用時すぐ出せるように)
+		// 7.即反映させる(きちんと保存して使用時すぐ出せるように)
 		myDefault.synchronize()
+
 	}
 	
 	
