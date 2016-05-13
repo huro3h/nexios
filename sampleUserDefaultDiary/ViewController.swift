@@ -45,7 +45,7 @@ class ViewController: UIViewController {
 	// 2.保存ボタン作成
 	@IBAction func tapBtnSave(sender: UIButton) {
 		
-		// 3.タイトルを追加
+		// 3.タイトルと日付を追加
 		diaryList.append(["title":txtTitle.text!,"date":txtDate.text!])
 		
 		print(diaryList)
