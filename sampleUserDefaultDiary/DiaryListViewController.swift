@@ -52,8 +52,8 @@ class DiaryListViewController: UIViewController,UITableViewDelegate,UITableViewD
 	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
 	{
 		// reuseIdentifier: "myCell" -> Main.storyboardのIdentifireと同じ名前に！
-		var cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
-		cell.textLabel!.text = "\(indexPath.row)行目"
+		let cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
+		cell.textLabel!.text = "\(diaryListTmp[indexPath.row]["title"])"
 		return cell
 	}
 	
