@@ -45,7 +45,7 @@ class DiaryListViewController: UIViewController,UITableViewDelegate,UITableViewD
 	// 11.必要な処理2つ! (numberOfRowsInSectionとcellForRowAtIndexPath)
 	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		// 変数.count関数を使うことで、変数に変化があったら柔軟に対応できる
-		return 10
+		return diaryListTmp.count
 	}
 	
 	// 行に表示する内容をセット
