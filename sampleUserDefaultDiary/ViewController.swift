@@ -9,16 +9,49 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+	@IBOutlet weak var txtTitle: UITextField!
+	@IBOutlet weak var txtDate: UITextField!
+	@IBOutlet weak var txtCategory: UITextField!
+	@IBOutlet weak var txtDiary: UILabel!
+	
+	var diaryList = ["title1","title2","title3","title4"]
+	
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+
+	
 	}
 
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	override func didReceiveMemoryWarning() {
+//		super.didReceiveMemoryWarning()
+//
+//	}
 
 
 }
