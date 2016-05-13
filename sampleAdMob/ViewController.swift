@@ -22,10 +22,10 @@ class ViewController: UIViewController, GADBannerViewDelegate {
 		admobView = GADBannerView(adSize:kGADAdSizeBanner)
 		
 		// 広告の位置を指定している(下に設置)
-		// admobView.frame.origin = CGPointMake(0, self.view.frame.size.height - admobView.frame.height)
+		admobView.frame.origin = CGPointMake(0, self.view.frame.size.height - admobView.frame.height)
 		
 		// ↓上に設置の場合
-		admobView.frame.origin = CGPointMake(0, 20)
+		// admobView.frame.origin = CGPointMake(0, 20)
 		// 広告のサイズを指定している
 		admobView.frame.size = CGSizeMake(self.view.frame.width, admobView.frame.height)
 		
