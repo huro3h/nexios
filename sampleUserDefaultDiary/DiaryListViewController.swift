@@ -54,10 +54,15 @@ class DiaryListViewController: UIViewController,UITableViewDelegate,UITableViewD
 		// reuseIdentifier: "myCell" -> Main.storyboardのIdentifireと同じ名前に！
 		let cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
 		
-		let title:String = diaryListTmp[indexPath.row]["title"]!
+		// 2行に分けて書くやり方
+//		let title:String = diaryListTmp[indexPath.row]["title"]!
+//		let date:String = diaryListTmp[indexPath.row]["date"]!
 		
+		// +で連結させる書き方
+		let title:String = diaryListTmp[indexPath.row]["title"]! + " " + diaryListTmp[indexPath.row]["date"]!
+		
+		// cellのテキストラベルにそれぞれ表示
 		cell.textLabel!.text = "\(title)"
-		
 		
 		return cell
 	}
