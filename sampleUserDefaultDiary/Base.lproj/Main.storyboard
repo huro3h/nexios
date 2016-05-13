@@ -89,7 +89,7 @@
                         <outlet property="btnSave" destination="RzD-At-UNk" id="hgH-4c-CfI"/>
                         <outlet property="txtCategory" destination="BWh-Px-wiG" id="fX3-qe-GEa"/>
                         <outlet property="txtDate" destination="q4u-hC-kan" id="kJG-Kr-EMu"/>
-                        <outlet property="txtDiary" destination="PRH-wO-zgC" id="P42-pi-v1m"/>
+                        <outlet property="txtDiary" destination="Gb1-P7-eci" id="HjH-w7-ksF"/>
                         <outlet property="txtTitle" destination="udt-hW-JLd" id="dha-nf-TfU"/>
                     </connections>
                 </viewController>

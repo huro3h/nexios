@@ -12,15 +12,15 @@ class ViewController: UIViewController {
 	@IBOutlet weak var txtTitle: UITextField!
 	@IBOutlet weak var txtDate: UITextField!
 	@IBOutlet weak var txtCategory: UITextField!
-	@IBOutlet weak var txtDiary: UILabel!
+	@IBOutlet weak var txtDiary: UITextView!
 	@IBOutlet weak var btnSave: UIButton!
 	
 	// var diaryList = ["title1","title2","title3"] //メンバ変数、要復習！
 	// jsonでは{}使用だが、xcodeでは[]使用
 	var diaryList =
-		[["title":"title1","date":"2016-5-13"],
-		["title":"title2","date":"2016-5-14"],
-		["title":"title3","date":"2016-5-15"]]
+		[["title":"title1","date":"2016-5-13","category":"せぶ","diary":"寝てた"],
+		["title":"title2","date":"2016-5-14","category":"せぶ","diary":"海行った"],
+		["title":"title1","date":"2016-5-15","category":"せぶ","diary":"勉強してた"]]
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -30,8 +30,8 @@ class ViewController: UIViewController {
 		
 		// 番外.UserDefault全削除する(1回実行させたらコメントアウトさせておくこと。)
 		// でないと常に全削除しちゃう...(´・ω・`)
-		var appDomein:String = NSBundle.mainBundle().bundleIdentifier!
-		myDefault.removePersistentDomainForName(appDomein)
+		//var appDomein:String = NSBundle.mainBundle().bundleIdentifier!
+		//myDefault.removePersistentDomainForName(appDomein)
 		
 		
 		// nilが存在するケース(一番最初、何もデータが入力されていない時=保存ボタンが１回も押されていない時)
@@ -46,7 +46,7 @@ class ViewController: UIViewController {
 	@IBAction func tapBtnSave(sender: UIButton) {
 		
 		// 3.タイトルと日付を追加
-		diaryList.append(["title":txtTitle.text!,"date":txtDate.text!])
+		diaryList.append(["title":txtTitle.text!,"date":txtDate.text!,"category":txtCategory.text!,"diary":txtDiary.text!])
 		
 		print(diaryList)
 		
