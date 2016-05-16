@@ -21,6 +21,12 @@ class ViewController: UIViewController {
 		
 		// 3.中心となる場所の座標オブジェクトを作成（今回はアヤラ）
 		let coodinate = CLLocationCoordinate2DMake(10.317347, 123.905759)
+		
+		// 4.縮尺を指定
+		let span = MKCoordinateSpanMake(0.1, 0.1)
+		
+		// 5.範囲オブジェクトを作成
+		let region = MKCoordinateRegionMake(coodinate, span)
 	}
 
 	
