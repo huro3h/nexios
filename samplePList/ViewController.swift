@@ -12,13 +12,39 @@ class ViewController: UIViewController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+	
+		// 1.ファイルのパスを取得(json.txt取得した時と描き方は一緒)
+		var filePath = NSBundle.mainBundle().pathForResource("friendsList", ofType: "plist")
+		
+		// 2.ファイルの内容を読み込んでディクショナリー型に代入
+		// plistの型を要確認！(今回の場合、Dictionary型に代入)
+		var dic = NSDictionary(contentsOfFile: filePath!)
+		
+	
 	}
 
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+//	override func didReceiveMemoryWarning() {
+//		super.didReceiveMemoryWarning()
+//	}
 
 
 }
