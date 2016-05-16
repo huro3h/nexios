@@ -20,13 +20,20 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		// 3.中心となる場所の座標オブジェクトを作成（今回はアヤラ）
+		// 引数に緯度と経度を入れる
 		let coodinate = CLLocationCoordinate2DMake(10.317347, 123.905759)
 		
 		// 4.縮尺を指定
-		let span = MKCoordinateSpanMake(0.1, 0.1)
+		// 詳細な地図を出したい時は引数をもっと小さくする(経度と緯度なので基本は同じ数字)
+		let span = MKCoordinateSpanMake(0.025, 0.025)
 		
 		// 5.範囲オブジェクトを作成
+		// Mapを表示させる準備
 		let region = MKCoordinateRegionMake(coodinate, span)
+		
+		// 6.MapViewに設定
+		// ここでMapを表示させる
+		myMapView.setRegion(region, animated: true)
 	}
 
 	
