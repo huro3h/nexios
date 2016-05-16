@@ -20,6 +20,8 @@ class ViewController: UIViewController {
 		// plistの型を要確認！(今回の場合、Dictionary型に代入)
 		var dic = NSDictionary(contentsOfFile: filePath!)
 		
+		// 3.名前、趣味、性別を表示
+		
 	
 	}
 
