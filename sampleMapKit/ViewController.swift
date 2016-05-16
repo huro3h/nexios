@@ -8,16 +8,33 @@
 
 import UIKit
 
+// 1.mapkitを使う際、importを書くこと
+import MapKit
+
 class ViewController: UIViewController {
 
+	// 2.名前つける
+	@IBOutlet weak var myMapView: MKMapView!
+	
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		// Do any additional setup after loading the view, typically from a nib.
+		
+		// 3.中心となる場所の座標オブジェクトを作成（今回はアヤラ）
+		let coodinate = CLLocationCoordinate2DMake(10.317347, 123.905759)
 	}
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
 	}
 
 
