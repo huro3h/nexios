@@ -20,7 +20,17 @@ class ViewController: UIViewController {
 		// plistの型を要確認！(今回の場合、Dictionary型に代入)
 		var dic = NSDictionary(contentsOfFile: filePath!)
 		
-		// 3.名前、趣味、性別を表示
+		// 3.名前、趣味、性別を表示（今回は辞書:辞書）
+		for(key,data) in dic!{
+			print(key)
+			
+			// 値を変数に入れて、printで表示
+			var gender:String = data["gender"] as! String
+			var hobby:String = data["hobby"] as! String
+			
+			print(gender)
+			print(hobby)
+		}
 		
 	
 	}
