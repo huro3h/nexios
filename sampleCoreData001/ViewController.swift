@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 		
 		// 2.Entityの操作を制御する()を()から作成
-		if let managedObjectContext = appDelegate.managedObjectContext{
+		if let managedObjectContext:NSManagedObjectContext = appDelegate.managedObjectContext{
 			
 			// 3.新しくデータを追加する為のEntityを作成する
 			let managedObject: AnyObject = NSEntityDescription.insertNewObjectForEntityForName("Todo", inManagedObjectContext: managedObjectContext)
