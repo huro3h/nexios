@@ -15,6 +15,8 @@
 		3C9CA3391CEAFA6A00CAFC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9CA3371CEAFA6A00CAFC83 /* LaunchScreen.storyboard */; };
 		3C9CA3441CEAFA6A00CAFC83 /* sampleCoreData001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CA3431CEAFA6A00CAFC83 /* sampleCoreData001Tests.swift */; };
 		3C9CA34F1CEAFA6A00CAFC83 /* sampleCoreData001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CA34E1CEAFA6A00CAFC83 /* sampleCoreData001UITests.swift */; };
+		3C9CA35E1CEB02A900CAFC83 /* Todo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CA35C1CEB02A900CAFC83 /* Todo+CoreDataProperties.swift */; };
+		3C9CA35F1CEB02A900CAFC83 /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9CA35D1CEB02A900CAFC83 /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		3C9CA34A1CEAFA6A00CAFC83 /* sampleCoreData001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleCoreData001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9CA34E1CEAFA6A00CAFC83 /* sampleCoreData001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleCoreData001UITests.swift; sourceTree = "<group>"; };
 		3C9CA3501CEAFA6A00CAFC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9CA35C1CEB02A900CAFC83 /* Todo+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Todo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3C9CA35D1CEB02A900CAFC83 /* Todo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				3C9CA3371CEAFA6A00CAFC83 /* LaunchScreen.storyboard */,
 				3C9CA33A1CEAFA6A00CAFC83 /* Info.plist */,
 				3C9CA3321CEAFA6A00CAFC83 /* sampleCoreData001.xcdatamodeld */,
+				3C9CA35C1CEB02A900CAFC83 /* Todo+CoreDataProperties.swift */,
+				3C9CA35D1CEB02A900CAFC83 /* Todo.swift */,
 			);
 			path = sampleCoreData001;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9CA32E1CEAFA6A00CAFC83 /* ViewController.swift in Sources */,
+				3C9CA35E1CEB02A900CAFC83 /* Todo+CoreDataProperties.swift in Sources */,
 				3C9CA3341CEAFA6A00CAFC83 /* sampleCoreData001.xcdatamodeld in Sources */,
 				3C9CA32C1CEAFA6A00CAFC83 /* AppDelegate.swift in Sources */,
+				3C9CA35F1CEB02A900CAFC83 /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

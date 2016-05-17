@@ -27,6 +27,16 @@ class ViewController: UIViewController {
 			
 			// 3.新しくデータを追加する為のEntityを作成する
 			let managedObject: AnyObject = NSEntityDescription.insertNewObjectForEntityForName("Todo", inManagedObjectContext: managedObjectContext)
+			
+			// 4.Todo EntityからObjectを生成し、Attributesに接続して値を代入
+			// (Entityにあわせたクラスを作ってから)
+			let todo = managedObject as! Todo
+			
+			todo.title = "hogehoge"
+			todo.saveDate = NSDate() // NSDate() 現在の日付を返す
+			
+			// 5.データの保存処理 (一番大切なやつ！)
+			appDelegate.saveContext()
 		}
 	}
 	
