@@ -42,6 +42,7 @@ class ViewController: UIViewController {
 			// a6.フェッチリクエスト(データの検索と取得処理)の実行
 			// 最初は短く書いて、後からスペースを入れることによってインデントが綺麗に治る
 			// do{}catch let error1 as NSError{ error = error1 }
+			// php であった try! catch と同じ役目
 			do{
 				let results = try managedObjectContext.executeFetchRequest(fetchRequest)
 				
@@ -60,16 +61,6 @@ class ViewController: UIViewController {
 		
 		}
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	@IBAction func tapSave(sender: UIButton) {
 		// print("おされた！")
@@ -93,6 +84,7 @@ class ViewController: UIViewController {
 			appDelegate.saveContext()
 		}
 	}
+	
 	
 	
 	
