@@ -45,7 +45,14 @@ class ViewController: UIViewController {
 			do{
 				let results = try managedObjectContext.executeFetchRequest(fetchRequest)
 				
+				//　a7.保存した件数をprint表示
 				print(results.count)
+				
+				for managedObject in results {
+					let todo = managedObject as! Todo
+					
+					print("title:\(todo.title) ,saveDate:\(todo.saveDate)")
+				}
 				
 			}catch let error1 as NSError{
 				error = error1
