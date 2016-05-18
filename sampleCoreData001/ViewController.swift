@@ -15,14 +15,61 @@ class ViewController: UIViewController {
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+	
+		read()
+		
 	}
-
+	
+	// すでに存在するデータの読み込み処理
+	func read(){
+		
+		// a1.AppDelegateをコードで読み込む
+		let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+		
+		// a2.Entityの操作を制御する(managedObjectContext)を(appDelegate)から作成
+		if let managedObjectContext:NSManagedObjectContext = appDelegate.managedObjectContext{
+			
+			// a3.Entityを指定する設定
+			let entityDescription = NSEntityDescription.entityForName("Todo", inManagedObjectContext: managedObjectContext)
+			
+			// a4.フェッチに必要なオブジェクトを準備
+			let fetchRequest = NSFetchRequest(entityName: "Todo")
+			fetchRequest.entity = entityDescription
+			
+			// a5.エラーが発生した際にキャッチするための変数
+			var error:NSError? = nil
+			
+			// a6.フェッチリクエスト(データの検索と取得処理)の実行
+			// 最初は短く書いて、後からスペースを入れることによってインデントが綺麗に治る
+			// do{}catch let error1 as NSError{ error = error1 }
+			do{
+				let results = try managedObjectContext.executeFetchRequest(fetchRequest)
+				
+				print(results.count)
+				
+			}catch let error1 as NSError{
+				error = error1
+			}
+		
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@IBAction func tapSave(sender: UIButton) {
 		// print("おされた！")
 		// 1.AppDelegateをコードで読み込む
 		let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
 		
-		// 2.Entityの操作を制御する()を()から作成
+		// 2.Entityの操作を制御する(managedObjectContext)を(appDelegate)から作成
 		if let managedObjectContext:NSManagedObjectContext = appDelegate.managedObjectContext{
 			
 			// 3.新しくデータを追加する為のEntityを作成する
