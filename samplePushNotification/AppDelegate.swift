@@ -15,7 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 	func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-		// Override point for customization after application launch.
+		
+		// このアプリで通知(Local Notification)を使用する許可をユーザーに求める為のコード
+		
+		// 音鳴らすのとアラートとバッジ使ってよいですかー？の意
+		application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes:[UIUserNotificationType.Sound,UIUserNotificationType.Alert,UIUserNotificationType.Badge],categories: nil))
+		
 		return true
 	}
 
