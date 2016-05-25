@@ -80,6 +80,12 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
 	// 4.何アイテム表示させるか → 4-2 customcell.swift新しくファイル追加
 	func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
 //		return 21
+		
+		// 取ってくる件数が21件より多ければ問題は無いが、
+		// 21件を下回った場合、表示するデータがなくなる為エラーが発生する
+		// musicList.countとすることで、取ってきた件数 = returnの値となる為
+		// 上記のケースが発生しなくなり、エラーが起こらなくなる
+		
 		return musicList.count
 	}
 	
