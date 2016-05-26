@@ -54,6 +54,19 @@ class ViewController: UIViewController {
 			AVNumberOfChannelsKey : 2,
 			AVSampleRateKey : 44100
 		]
+		do{
+			try audioRecorder = AVAudioR
+		} catch {
+		
+		}
+	}
+	
+	// 4.録音するファイルのパスを取得(録音時、再生時に参照)
+	// swift2からstringByAppendingPathComponentが使えなくなったので少し面倒
+	func documentFilePath()-> NSURL{
+		let urls = fileManager.URLsForDirectory(.DocumentDirectory, inDomains: .UserDomainMask) as [NSURL]
+		let dirURL = urls[0]
+		return dirURL.URLByAppendingPathComponent(fileName)
 	}
 	
 	
