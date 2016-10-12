@@ -16,16 +16,16 @@ class ViewController: UIViewController {
 		// Do any additional setup after loading the view, typically from a nib.
 	}
 	
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		// json.txtファイルの読み込み
-		let path = NSBundle.mainBundle().pathForResource("json", ofType: "txt")
+		let path = Bundle.main.path(forResource: "json", ofType: "txt")
 		
 		// 内容を取り出す
-		let jsondata = NSData(contentsOfFile: path!)
+		let jsondata = try? Data(contentsOf: URL(fileURLWithPath: path!))
 		
 		// 辞書データに変換
 		// as データ型で指定したデータ型に変換(ダウンキャスト)
-		let jsonDictionary = (try! NSJSONSerialization.JSONObjectWithData(jsondata!, options: [])) as! NSDictionary
+    let jsonDictionary = (try! JSONSerialization.jsonObject(with: jsondata!, options: [])) as! [String:AnyObject]
 		
 		// 辞書データの個数だけ繰り返して表示する(この場合2回回す:理由以下に記載)
 		for (key, data) in jsonDictionary {
