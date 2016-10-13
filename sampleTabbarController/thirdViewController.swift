@@ -14,9 +14,9 @@ class thirdViewController: UIViewController {
         super.viewDidLoad()
     }
 
-	override func viewWillAppear(animated: Bool) {
-		var myAp = UIApplication.sharedApplication().delegate as! AppDelegate
-		myAp.myCount++
+	override func viewWillAppear(_ animated: Bool) {
+		var myAp = UIApplication.shared.delegate as! AppDelegate
+		myAp.myCount += 1
 		print("3画面目 count=\(myAp.myCount)")
 	}
 

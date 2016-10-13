@@ -22,19 +22,19 @@ class FirstViewController: UIViewController {
 	}
 	
 	// Appear（表示される度に処理が実行される）
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		// print("F.V.Controllerが「表示」されました！")
 		
 		// 2.AppDelegateにアクセスする為の準備をして
-		var myAp = UIApplication.sharedApplication().delegate as! AppDelegate
+		var myAp = UIApplication.shared.delegate as! AppDelegate
 		// 3.プロパティの値を書き換える
-		myAp.myCount++
+		myAp.myCount += 1
 		// 4.プロパティの値を読み出す
 		print("1画面目 count=\(myAp.myCount)")
 		
 	}
 
-	override func viewWillDisappear(animated: Bool){
+	override func viewWillDisappear(_ animated: Bool){
 		// 画面切り替わり時にバッジ消す
 		tabBarItem.badgeValue = nil
 	

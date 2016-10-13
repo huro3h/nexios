@@ -16,14 +16,14 @@ class SecondViewController: UIViewController {
 	}
 
 	// Appear（表示される度に処理が実行される）
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		
 		
 		// print("F.V.Controllerが「表示」されました！")
 		// 2.AppDelegateにアクセスする為の準備をして
-		var myAp = UIApplication.sharedApplication().delegate as! AppDelegate
+		var myAp = UIApplication.shared.delegate as! AppDelegate
 		// 3.プロパティの値を書き換える
-		myAp.myCount++
+		myAp.myCount += 1
 		// 4.プロパティの値を読み出す
 		print("2画面目 count=\(myAp.myCount)")
 	}
