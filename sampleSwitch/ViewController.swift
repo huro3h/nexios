@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         // print(sender.on)
         
         // TODO:スイッチON時に「スイッチオン」、OFF時に「スイッチオフ」をデバッグエリアに表示するif文表示
-        if sender.on{
+        if sender.isOn{
             print("スイッチオン")
         }else{
             print("スイッチオフ")
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
         // ちなみに.onは指定できるけど、.offはないよ！
         
         // 解答例
-        if sender.on == true{
+        if sender.isOn == true{
             print("すいっちおん")
         }else{
             print("すいっちおふ")
