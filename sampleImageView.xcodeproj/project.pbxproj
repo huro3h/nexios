@@ -196,13 +196,16 @@
 				TargetAttributes = {
 					3C6EA8781CD33A72005996CE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 					};
 					3C6EA88C1CD33A72005996CE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3C6EA8781CD33A72005996CE;
 					};
 					3C6EA8971CD33A72005996CE = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 3C6EA8781CD33A72005996CE;
 					};
 				};
@@ -405,6 +408,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -416,6 +420,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -427,6 +432,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleImageView.app/sampleImageView";
 			};
 			name = Debug;
@@ -439,6 +445,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleImageView.app/sampleImageView";
 			};
 			name = Release;
@@ -450,6 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = sampleImageView;
 				USES_XCTRUNNER = YES;
 			};
@@ -462,6 +470,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleImageViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = sampleImageView;
 				USES_XCTRUNNER = YES;
 			};
@@ -486,6 +495,7 @@
 				3C6EA8A31CD33A73005996CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6EA8A41CD33A73005996CE /* Build configuration list for PBXNativeTarget "sampleImageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +504,7 @@
 				3C6EA8A61CD33A73005996CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C6EA8A71CD33A73005996CE /* Build configuration list for PBXNativeTarget "sampleImageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +513,7 @@
 				3C6EA8A91CD33A73005996CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
