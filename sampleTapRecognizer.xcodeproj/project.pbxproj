@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C6EA9771CD86D48005996CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA9761CD86D48005996CE /* AppDelegate.swift */; };
+		3C6EA9791CD86D48005996CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA9781CD86D48005996CE /* ViewController.swift */; };
+		3C6EA97C1CD86D48005996CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA97A1CD86D48005996CE /* Main.storyboard */; };
+		3C6EA97E1CD86D48005996CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA97D1CD86D48005996CE /* Assets.xcassets */; };
+		3C6EA9811CD86D48005996CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6EA97F1CD86D48005996CE /* LaunchScreen.storyboard */; };
+		3C6EA98C1CD86D48005996CE /* sampleTapRecognizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA98B1CD86D48005996CE /* sampleTapRecognizerTests.swift */; };
+		3C6EA9971CD86D48005996CE /* sampleTapRecognizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6EA9961CD86D48005996CE /* sampleTapRecognizerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C6EA9881CD86D48005996CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6EA96B1CD86D48005996CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6EA9721CD86D48005996CE;
+			remoteInfo = sampleTapRecognizer;
+		};
+		3C6EA9931CD86D48005996CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C6EA96B1CD86D48005996CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C6EA9721CD86D48005996CE;
+			remoteInfo = sampleTapRecognizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C6EA9731CD86D48005996CE /* sampleTapRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleTapRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6EA9761CD86D48005996CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C6EA9781CD86D48005996CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C6EA97B1CD86D48005996CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C6EA97D1CD86D48005996CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C6EA9801CD86D48005996CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C6EA9821CD86D48005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EA9871CD86D48005996CE /* sampleTapRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTapRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6EA98B1CD86D48005996CE /* sampleTapRecognizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTapRecognizerTests.swift; sourceTree = "<group>"; };
+		3C6EA98D1CD86D48005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C6EA9921CD86D48005996CE /* sampleTapRecognizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleTapRecognizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C6EA9961CD86D48005996CE /* sampleTapRecognizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleTapRecognizerUITests.swift; sourceTree = "<group>"; };
+		3C6EA9981CD86D48005996CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C6EA9701CD86D48005996CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA9841CD86D48005996CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA98F1CD86D48005996CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C6EA96A1CD86D48005996CE = {
+			isa = PBXGroup;
+			children = (
+				3C6EA9751CD86D48005996CE /* sampleTapRecognizer */,
+				3C6EA98A1CD86D48005996CE /* sampleTapRecognizerTests */,
+				3C6EA9951CD86D48005996CE /* sampleTapRecognizerUITests */,
+				3C6EA9741CD86D48005996CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C6EA9741CD86D48005996CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C6EA9731CD86D48005996CE /* sampleTapRecognizer.app */,
+				3C6EA9871CD86D48005996CE /* sampleTapRecognizerTests.xctest */,
+				3C6EA9921CD86D48005996CE /* sampleTapRecognizerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C6EA9751CD86D48005996CE /* sampleTapRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				3C6EA9761CD86D48005996CE /* AppDelegate.swift */,
+				3C6EA9781CD86D48005996CE /* ViewController.swift */,
+				3C6EA97A1CD86D48005996CE /* Main.storyboard */,
+				3C6EA97D1CD86D48005996CE /* Assets.xcassets */,
+				3C6EA97F1CD86D48005996CE /* LaunchScreen.storyboard */,
+				3C6EA9821CD86D48005996CE /* Info.plist */,
+			);
+			path = sampleTapRecognizer;
+			sourceTree = "<group>";
+		};
+		3C6EA98A1CD86D48005996CE /* sampleTapRecognizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6EA98B1CD86D48005996CE /* sampleTapRecognizerTests.swift */,
+				3C6EA98D1CD86D48005996CE /* Info.plist */,
+			);
+			path = sampleTapRecognizerTests;
+			sourceTree = "<group>";
+		};
+		3C6EA9951CD86D48005996CE /* sampleTapRecognizerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C6EA9961CD86D48005996CE /* sampleTapRecognizerUITests.swift */,
+				3C6EA9981CD86D48005996CE /* Info.plist */,
+			);
+			path = sampleTapRecognizerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C6EA9721CD86D48005996CE /* sampleTapRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6EA99B1CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizer" */;
+			buildPhases = (
+				3C6EA96F1CD86D48005996CE /* Sources */,
+				3C6EA9701CD86D48005996CE /* Frameworks */,
+				3C6EA9711CD86D48005996CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleTapRecognizer;
+			productName = sampleTapRecognizer;
+			productReference = 3C6EA9731CD86D48005996CE /* sampleTapRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C6EA9861CD86D48005996CE /* sampleTapRecognizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6EA99E1CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizerTests" */;
+			buildPhases = (
+				3C6EA9831CD86D48005996CE /* Sources */,
+				3C6EA9841CD86D48005996CE /* Frameworks */,
+				3C6EA9851CD86D48005996CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6EA9891CD86D48005996CE /* PBXTargetDependency */,
+			);
+			name = sampleTapRecognizerTests;
+			productName = sampleTapRecognizerTests;
+			productReference = 3C6EA9871CD86D48005996CE /* sampleTapRecognizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C6EA9911CD86D48005996CE /* sampleTapRecognizerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C6EA9A11CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizerUITests" */;
+			buildPhases = (
+				3C6EA98E1CD86D48005996CE /* Sources */,
+				3C6EA98F1CD86D48005996CE /* Frameworks */,
+				3C6EA9901CD86D48005996CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C6EA9941CD86D48005996CE /* PBXTargetDependency */,
+			);
+			name = sampleTapRecognizerUITests;
+			productName = sampleTapRecognizerUITests;
+			productReference = 3C6EA9921CD86D48005996CE /* sampleTapRecognizerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C6EA96B1CD86D48005996CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = satoshiii;
+				TargetAttributes = {
+					3C6EA9721CD86D48005996CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Y63B3HU65B;
+						LastSwiftMigration = 0800;
+					};
+					3C6EA9861CD86D48005996CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 3C6EA9721CD86D48005996CE;
+					};
+					3C6EA9911CD86D48005996CE = {
+						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 3C6EA9721CD86D48005996CE;
+					};
+				};
+			};
+			buildConfigurationList = 3C6EA96E1CD86D48005996CE /* Build configuration list for PBXProject "sampleTapRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C6EA96A1CD86D48005996CE;
+			productRefGroup = 3C6EA9741CD86D48005996CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C6EA9721CD86D48005996CE /* sampleTapRecognizer */,
+				3C6EA9861CD86D48005996CE /* sampleTapRecognizerTests */,
+				3C6EA9911CD86D48005996CE /* sampleTapRecognizerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C6EA9711CD86D48005996CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6EA9811CD86D48005996CE /* LaunchScreen.storyboard in Resources */,
+				3C6EA97E1CD86D48005996CE /* Assets.xcassets in Resources */,
+				3C6EA97C1CD86D48005996CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA9851CD86D48005996CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA9901CD86D48005996CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C6EA96F1CD86D48005996CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6EA9791CD86D48005996CE /* ViewController.swift in Sources */,
+				3C6EA9771CD86D48005996CE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA9831CD86D48005996CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6EA98C1CD86D48005996CE /* sampleTapRecognizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C6EA98E1CD86D48005996CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6EA9971CD86D48005996CE /* sampleTapRecognizerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C6EA9891CD86D48005996CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6EA9721CD86D48005996CE /* sampleTapRecognizer */;
+			targetProxy = 3C6EA9881CD86D48005996CE /* PBXContainerItemProxy */;
+		};
+		3C6EA9941CD86D48005996CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C6EA9721CD86D48005996CE /* sampleTapRecognizer */;
+			targetProxy = 3C6EA9931CD86D48005996CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C6EA97A1CD86D48005996CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6EA97B1CD86D48005996CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C6EA97F1CD86D48005996CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C6EA9801CD86D48005996CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C6EA9991CD86D48005996CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C6EA99A1CD86D48005996CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C6EA99C1CD86D48005996CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y63B3HU65B;
+				INFOPLIST_FILE = sampleTapRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3C6EA99D1CD86D48005996CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y63B3HU65B;
+				INFOPLIST_FILE = sampleTapRecognizer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3C6EA99F1CD86D48005996CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleTapRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleTapRecognizer.app/sampleTapRecognizer";
+			};
+			name = Debug;
+		};
+		3C6EA9A01CD86D48005996CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleTapRecognizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleTapRecognizer.app/sampleTapRecognizer";
+			};
+			name = Release;
+		};
+		3C6EA9A21CD86D48005996CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleTapRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleTapRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C6EA9A31CD86D48005996CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleTapRecognizerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleTapRecognizerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleTapRecognizer;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6EA96E1CD86D48005996CE /* Build configuration list for PBXProject "sampleTapRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6EA9991CD86D48005996CE /* Debug */,
+				3C6EA99A1CD86D48005996CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6EA99B1CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6EA99C1CD86D48005996CE /* Debug */,
+				3C6EA99D1CD86D48005996CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6EA99E1CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6EA99F1CD86D48005996CE /* Debug */,
+				3C6EA9A01CD86D48005996CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C6EA9A11CD86D48005996CE /* Build configuration list for PBXNativeTarget "sampleTapRecognizerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C6EA9A21CD86D48005996CE /* Debug */,
+				3C6EA9A31CD86D48005996CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C6EA96B1CD86D48005996CE /* Project object */;
+}
