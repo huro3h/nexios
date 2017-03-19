@@ -20,7 +20,7 @@ class SecondViewController: UIViewController {
     }
 
 	// 画面が表示された時カウントアップした数字を渡す<\(tmpCount)>
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		print("次の画面が表示された時<\(tmpCount)>")
 	}
 	
