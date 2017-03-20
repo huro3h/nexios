@@ -26,15 +26,16 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
 		super.viewDidLoad()
 	}
 	
-	func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+	func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 		// 変数.count関数を使うことで、変数に変化があったら柔軟に対応できる
 		return teaList.count
 	}
 	
 	// 行に表示する内容をセット
-	func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
+	{
 		// reuseIdentifier: "myCell" -> Main.storyboardのIdentifireと同じ名前に！
-		var cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
+		let cell = UITableViewCell(style: .default, reuseIdentifier: "myCell")
 		// cell.textLabel!.text = "\(indexPath.row)行目"
 		// この辺りで使用している indexPath.row は 「配列で回る数字」のようなもの
 		cell.textLabel!.text = "\(teaList[indexPath.row])"
@@ -43,7 +44,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
 	}
 	
 		// 選択された時に行う処理(*既に同じコードを書いている場合、候補には出ないので注意)
-		func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+		func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		
 		print("\(indexPath.row)行目を選択")
 		
@@ -52,8 +53,9 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
 		
 		// Main.storyboardでセグエに名前をつけた後で。。。
 		// 指定したセグエを使用して画面遷移する
-		performSegueWithIdentifier("showDetailView", sender: nil)
-	}
+		performSegue(withIdentifier: "showDetailView", sender: nil)
+		
+		}
 
 	// a3.セグエで画面遷移する時（segueを使って画面を移動するよ！の意）
 	// *実はここで次画面の -1 が既に var detailVC に入っている
@@ -62,10 +64,10 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
 	// うまく上書きされないと、次画面で -1 が表示されてしまう
 	// ＝ 言い換えれば明らかに「おかしい（正しく処理されていない）状態」になっている。
 	// 次画面の -1 はそれを確認している。
-	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
 		// a4.DetailViewをインスタンス化
-		var detailVC = segue.destinationViewController as! DetailViewController
+		let detailVC = segue.destination as! DetailViewController
 		
 		// a5.今から移動しようとしているindex = 今まであったindex
 		detailVC.selectedIndex = selectedIndex

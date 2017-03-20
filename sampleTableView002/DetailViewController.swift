@@ -18,7 +18,7 @@ class DetailViewController: UIViewController {
 	var selectedIndex = -1
 	
 	// a6. 何行目が押されているのかprintで確認するよテスト
-	override func viewWillAppear(animated: Bool) {
+	override func viewWillAppear(_ animated: Bool) {
 		print(selectedIndex)
 	}
 
