@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>あき</key>
+	<dict>
+		<key>hobby</key>
+		<string>散歩</string>
+		<key>gender</key>
+		<string>男性</string>
+	</dict>
+	<key>ちゅら</key>
+	<dict>
+		<key>hobby</key>
+		<string>食べる</string>
+		<key>gender</key>
+		<string>女性</string>
+	</dict>
+	<key>うに</key>
+	<dict>
+		<key>hobby</key>
+		<string>脱走</string>
+		<key>gender</key>
+		<string>男性</string>
+	</dict>
+	<key>シルバ</key>
+	<dict>
+		<key>hobby</key>
+		<string>寝る</string>
+		<key>gender</key>
+		<string>男性</string>
+	</dict>
+	<key>さとし</key>
+	<dict>
+		<key>hobby</key>
+		<string>音楽鑑賞</string>
+		<key>gender</key>
+		<string>男性</string>
+	</dict>
+</dict>
+</plist>
