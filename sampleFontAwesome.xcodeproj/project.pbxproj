@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0183824759A95C9DDBAD2CD5 /* libPods-sampleFontAwesome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD0294E12B225F6385F53DC /* libPods-sampleFontAwesome.a */; };
+		3640AD850A0CCA8519FCC76D /* libPods-sampleFontAwesomeUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 471A5ABE024571F0A2970FD9 /* libPods-sampleFontAwesomeUITests.a */; };
+		3C9018111CED829C0090BA0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9018101CED829C0090BA0A /* AppDelegate.swift */; };
+		3C9018131CED829C0090BA0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9018121CED829C0090BA0A /* ViewController.swift */; };
+		3C9018161CED829C0090BA0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9018141CED829C0090BA0A /* Main.storyboard */; };
+		3C9018191CED829C0090BA0A /* sampleFontAwesome.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3C9018171CED829C0090BA0A /* sampleFontAwesome.xcdatamodeld */; };
+		3C90181B1CED829C0090BA0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C90181A1CED829C0090BA0A /* Assets.xcassets */; };
+		3C90181E1CED829C0090BA0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C90181C1CED829C0090BA0A /* LaunchScreen.storyboard */; };
+		3C9018291CED829C0090BA0A /* sampleFontAwesomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9018281CED829C0090BA0A /* sampleFontAwesomeTests.swift */; };
+		3C9018341CED829C0090BA0A /* sampleFontAwesomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9018331CED829C0090BA0A /* sampleFontAwesomeUITests.swift */; };
+		6FB0E3DA71C652465C513A52 /* libPods-sampleFontAwesomeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B6432B438253A4A8DE78B9 /* libPods-sampleFontAwesomeTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C9018251CED829C0090BA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9018051CED829C0090BA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C90180C1CED829C0090BA0A;
+			remoteInfo = sampleFontAwesome;
+		};
+		3C9018301CED829C0090BA0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C9018051CED829C0090BA0A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C90180C1CED829C0090BA0A;
+			remoteInfo = sampleFontAwesome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0594AEB61BE99E17DC051518 /* Pods-sampleFontAwesome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesome.release.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesome/Pods-sampleFontAwesome.release.xcconfig"; sourceTree = "<group>"; };
+		21C186DABAAADA3D24C4A9C7 /* Pods-sampleFontAwesomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesomeTests/Pods-sampleFontAwesomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		295BD5163C0971A909C110BF /* Pods-sampleFontAwesomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesomeUITests/Pods-sampleFontAwesomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BD0294E12B225F6385F53DC /* libPods-sampleFontAwesome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sampleFontAwesome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C90180D1CED829C0090BA0A /* sampleFontAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleFontAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9018101CED829C0090BA0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C9018121CED829C0090BA0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C9018151CED829C0090BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C9018181CED829C0090BA0A /* sampleFontAwesome.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = sampleFontAwesome.xcdatamodel; sourceTree = "<group>"; };
+		3C90181A1CED829C0090BA0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C90181D1CED829C0090BA0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C90181F1CED829C0090BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C9018241CED829C0090BA0A /* sampleFontAwesomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleFontAwesomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9018281CED829C0090BA0A /* sampleFontAwesomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleFontAwesomeTests.swift; sourceTree = "<group>"; };
+		3C90182A1CED829C0090BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C90182F1CED829C0090BA0A /* sampleFontAwesomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleFontAwesomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C9018331CED829C0090BA0A /* sampleFontAwesomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleFontAwesomeUITests.swift; sourceTree = "<group>"; };
+		3C9018351CED829C0090BA0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		471A5ABE024571F0A2970FD9 /* libPods-sampleFontAwesomeUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sampleFontAwesomeUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58F67CD014C833160FC0532F /* Pods-sampleFontAwesome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesome/Pods-sampleFontAwesome.debug.xcconfig"; sourceTree = "<group>"; };
+		91973F7C637BBE5CADC0A657 /* Pods-sampleFontAwesomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesomeUITests/Pods-sampleFontAwesomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B0B6432B438253A4A8DE78B9 /* libPods-sampleFontAwesomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-sampleFontAwesomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA5E83390BD7F3985A660FA /* Pods-sampleFontAwesomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-sampleFontAwesomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-sampleFontAwesomeTests/Pods-sampleFontAwesomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C90180A1CED829C0090BA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0183824759A95C9DDBAD2CD5 /* libPods-sampleFontAwesome.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9018211CED829C0090BA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB0E3DA71C652465C513A52 /* libPods-sampleFontAwesomeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90182C1CED829C0090BA0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3640AD850A0CCA8519FCC76D /* libPods-sampleFontAwesomeUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C9018041CED829C0090BA0A = {
+			isa = PBXGroup;
+			children = (
+				3C90180F1CED829C0090BA0A /* sampleFontAwesome */,
+				3C9018271CED829C0090BA0A /* sampleFontAwesomeTests */,
+				3C9018321CED829C0090BA0A /* sampleFontAwesomeUITests */,
+				3C90180E1CED829C0090BA0A /* Products */,
+				BB807B32FED81B83D819F617 /* Pods */,
+				6F4C43B5CF9D34138F8F223D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C90180E1CED829C0090BA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C90180D1CED829C0090BA0A /* sampleFontAwesome.app */,
+				3C9018241CED829C0090BA0A /* sampleFontAwesomeTests.xctest */,
+				3C90182F1CED829C0090BA0A /* sampleFontAwesomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C90180F1CED829C0090BA0A /* sampleFontAwesome */ = {
+			isa = PBXGroup;
+			children = (
+				3C9018101CED829C0090BA0A /* AppDelegate.swift */,
+				3C9018121CED829C0090BA0A /* ViewController.swift */,
+				3C9018141CED829C0090BA0A /* Main.storyboard */,
+				3C90181A1CED829C0090BA0A /* Assets.xcassets */,
+				3C90181C1CED829C0090BA0A /* LaunchScreen.storyboard */,
+				3C90181F1CED829C0090BA0A /* Info.plist */,
+				3C9018171CED829C0090BA0A /* sampleFontAwesome.xcdatamodeld */,
+			);
+			path = sampleFontAwesome;
+			sourceTree = "<group>";
+		};
+		3C9018271CED829C0090BA0A /* sampleFontAwesomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9018281CED829C0090BA0A /* sampleFontAwesomeTests.swift */,
+				3C90182A1CED829C0090BA0A /* Info.plist */,
+			);
+			path = sampleFontAwesomeTests;
+			sourceTree = "<group>";
+		};
+		3C9018321CED829C0090BA0A /* sampleFontAwesomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C9018331CED829C0090BA0A /* sampleFontAwesomeUITests.swift */,
+				3C9018351CED829C0090BA0A /* Info.plist */,
+			);
+			path = sampleFontAwesomeUITests;
+			sourceTree = "<group>";
+		};
+		6F4C43B5CF9D34138F8F223D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD0294E12B225F6385F53DC /* libPods-sampleFontAwesome.a */,
+				B0B6432B438253A4A8DE78B9 /* libPods-sampleFontAwesomeTests.a */,
+				471A5ABE024571F0A2970FD9 /* libPods-sampleFontAwesomeUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB807B32FED81B83D819F617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58F67CD014C833160FC0532F /* Pods-sampleFontAwesome.debug.xcconfig */,
+				0594AEB61BE99E17DC051518 /* Pods-sampleFontAwesome.release.xcconfig */,
+				DAA5E83390BD7F3985A660FA /* Pods-sampleFontAwesomeTests.debug.xcconfig */,
+				21C186DABAAADA3D24C4A9C7 /* Pods-sampleFontAwesomeTests.release.xcconfig */,
+				295BD5163C0971A909C110BF /* Pods-sampleFontAwesomeUITests.debug.xcconfig */,
+				91973F7C637BBE5CADC0A657 /* Pods-sampleFontAwesomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C90180C1CED829C0090BA0A /* sampleFontAwesome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C9018381CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesome" */;
+			buildPhases = (
+				72300F6EF2E1DA0BFA02B59F /* 📦 Check Pods Manifest.lock */,
+				3C9018091CED829C0090BA0A /* Sources */,
+				3C90180A1CED829C0090BA0A /* Frameworks */,
+				3C90180B1CED829C0090BA0A /* Resources */,
+				9255495ECB73C908640C84A5 /* 📦 Embed Pods Frameworks */,
+				8F0A880D393F5564B9D12302 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleFontAwesome;
+			productName = sampleFontAwesome;
+			productReference = 3C90180D1CED829C0090BA0A /* sampleFontAwesome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C9018231CED829C0090BA0A /* sampleFontAwesomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C90183B1CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesomeTests" */;
+			buildPhases = (
+				31B96DF66E0C46F7C1B10E1C /* 📦 Check Pods Manifest.lock */,
+				3C9018201CED829C0090BA0A /* Sources */,
+				3C9018211CED829C0090BA0A /* Frameworks */,
+				3C9018221CED829C0090BA0A /* Resources */,
+				89FA25184513DF1F74E91B90 /* 📦 Embed Pods Frameworks */,
+				EE5D9FFE9BB069EDE2E8E2C8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9018261CED829C0090BA0A /* PBXTargetDependency */,
+			);
+			name = sampleFontAwesomeTests;
+			productName = sampleFontAwesomeTests;
+			productReference = 3C9018241CED829C0090BA0A /* sampleFontAwesomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C90182E1CED829C0090BA0A /* sampleFontAwesomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C90183E1CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesomeUITests" */;
+			buildPhases = (
+				90AED1229814728716CD7F97 /* 📦 Check Pods Manifest.lock */,
+				3C90182B1CED829C0090BA0A /* Sources */,
+				3C90182C1CED829C0090BA0A /* Frameworks */,
+				3C90182D1CED829C0090BA0A /* Resources */,
+				18B570DDD04040348E89A2AF /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C9018311CED829C0090BA0A /* PBXTargetDependency */,
+			);
+			name = sampleFontAwesomeUITests;
+			productName = sampleFontAwesomeUITests;
+			productReference = 3C90182F1CED829C0090BA0A /* sampleFontAwesomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C9018051CED829C0090BA0A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = satoshiii;
+				TargetAttributes = {
+					3C90180C1CED829C0090BA0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 445HFT775Z;
+					};
+					3C9018231CED829C0090BA0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 445HFT775Z;
+						TestTargetID = 3C90180C1CED829C0090BA0A;
+					};
+					3C90182E1CED829C0090BA0A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 445HFT775Z;
+						TestTargetID = 3C90180C1CED829C0090BA0A;
+					};
+				};
+			};
+			buildConfigurationList = 3C9018081CED829C0090BA0A /* Build configuration list for PBXProject "sampleFontAwesome" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C9018041CED829C0090BA0A;
+			productRefGroup = 3C90180E1CED829C0090BA0A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C90180C1CED829C0090BA0A /* sampleFontAwesome */,
+				3C9018231CED829C0090BA0A /* sampleFontAwesomeTests */,
+				3C90182E1CED829C0090BA0A /* sampleFontAwesomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C90180B1CED829C0090BA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C90181E1CED829C0090BA0A /* LaunchScreen.storyboard in Resources */,
+				3C90181B1CED829C0090BA0A /* Assets.xcassets in Resources */,
+				3C9018161CED829C0090BA0A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9018221CED829C0090BA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90182D1CED829C0090BA0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18B570DDD04040348E89A2AF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleFontAwesomeUITests/Pods-sampleFontAwesomeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31B96DF66E0C46F7C1B10E1C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72300F6EF2E1DA0BFA02B59F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		89FA25184513DF1F74E91B90 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleFontAwesomeTests/Pods-sampleFontAwesomeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F0A880D393F5564B9D12302 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleFontAwesome/Pods-sampleFontAwesome-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90AED1229814728716CD7F97 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9255495ECB73C908640C84A5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleFontAwesome/Pods-sampleFontAwesome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE5D9FFE9BB069EDE2E8E2C8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-sampleFontAwesomeTests/Pods-sampleFontAwesomeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C9018091CED829C0090BA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9018191CED829C0090BA0A /* sampleFontAwesome.xcdatamodeld in Sources */,
+				3C9018131CED829C0090BA0A /* ViewController.swift in Sources */,
+				3C9018111CED829C0090BA0A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C9018201CED829C0090BA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9018291CED829C0090BA0A /* sampleFontAwesomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C90182B1CED829C0090BA0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C9018341CED829C0090BA0A /* sampleFontAwesomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C9018261CED829C0090BA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C90180C1CED829C0090BA0A /* sampleFontAwesome */;
+			targetProxy = 3C9018251CED829C0090BA0A /* PBXContainerItemProxy */;
+		};
+		3C9018311CED829C0090BA0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C90180C1CED829C0090BA0A /* sampleFontAwesome */;
+			targetProxy = 3C9018301CED829C0090BA0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C9018141CED829C0090BA0A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C9018151CED829C0090BA0A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C90181C1CED829C0090BA0A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C90181D1CED829C0090BA0A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C9018361CED829C0090BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C9018371CED829C0090BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C9018391CED829C0090BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F67CD014C833160FC0532F /* Pods-sampleFontAwesome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleFontAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C90183A1CED829C0090BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0594AEB61BE99E17DC051518 /* Pods-sampleFontAwesome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleFontAwesome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C90183C1CED829C0090BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAA5E83390BD7F3985A660FA /* Pods-sampleFontAwesomeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleFontAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleFontAwesome.app/sampleFontAwesome";
+			};
+			name = Debug;
+		};
+		3C90183D1CED829C0090BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C186DABAAADA3D24C4A9C7 /* Pods-sampleFontAwesomeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleFontAwesomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleFontAwesome.app/sampleFontAwesome";
+			};
+			name = Release;
+		};
+		3C90183F1CED829C0090BA0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 295BD5163C0971A909C110BF /* Pods-sampleFontAwesomeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = sampleFontAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleFontAwesome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C9018401CED829C0090BA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91973F7C637BBE5CADC0A657 /* Pods-sampleFontAwesomeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = sampleFontAwesomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleFontAwesomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleFontAwesome;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C9018081CED829C0090BA0A /* Build configuration list for PBXProject "sampleFontAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9018361CED829C0090BA0A /* Debug */,
+				3C9018371CED829C0090BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C9018381CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C9018391CED829C0090BA0A /* Debug */,
+				3C90183A1CED829C0090BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C90183B1CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90183C1CED829C0090BA0A /* Debug */,
+				3C90183D1CED829C0090BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C90183E1CED829C0090BA0A /* Build configuration list for PBXNativeTarget "sampleFontAwesomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C90183F1CED829C0090BA0A /* Debug */,
+				3C9018401CED829C0090BA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3C9018171CED829C0090BA0A /* sampleFontAwesome.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3C9018181CED829C0090BA0A /* sampleFontAwesome.xcdatamodel */,
+			);
+			currentVersion = 3C9018181CED829C0090BA0A /* sampleFontAwesome.xcdatamodel */;
+			path = sampleFontAwesome.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3C9018051CED829C0090BA0A /* Project object */;
+}

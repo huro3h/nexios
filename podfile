@@ -1,0 +1,18 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sampleFontAwesome' do
+  pod 'FontAwesomeKit', '~> 2.1.0'
+end
+
+  target 'sampleFontAwesomeTests' do
+    #inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'sampleFontAwesomeUITests' do
+    #inherit! :search_paths
+    # Pods for testing
+  end
+
+
