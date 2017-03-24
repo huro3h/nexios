@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C57659C1CE3096200C45FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57659B1CE3096200C45FB9 /* AppDelegate.swift */; };
+		3C57659E1CE3096200C45FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57659D1CE3096200C45FB9 /* ViewController.swift */; };
+		3C5765A11CE3096200C45FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C57659F1CE3096200C45FB9 /* Main.storyboard */; };
+		3C5765A31CE3096200C45FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5765A21CE3096200C45FB9 /* Assets.xcassets */; };
+		3C5765A61CE3096200C45FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5765A41CE3096200C45FB9 /* LaunchScreen.storyboard */; };
+		3C5765B11CE3096200C45FB9 /* sampleAdMobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5765B01CE3096200C45FB9 /* sampleAdMobTests.swift */; };
+		3C5765BC1CE3096200C45FB9 /* sampleAdMobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5765BB1CE3096200C45FB9 /* sampleAdMobUITests.swift */; };
+		3C5765CA1CE30B6B00C45FB9 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765C91CE30B6B00C45FB9 /* AdSupport.framework */; };
+		3C5765CC1CE30B7F00C45FB9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765CB1CE30B7F00C45FB9 /* AudioToolbox.framework */; };
+		3C5765CE1CE30B8600C45FB9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765CD1CE30B8600C45FB9 /* AVFoundation.framework */; };
+		3C5765D01CE30B8F00C45FB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765CF1CE30B8F00C45FB9 /* CoreGraphics.framework */; };
+		3C5765D21CE30B9B00C45FB9 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765D11CE30B9B00C45FB9 /* CoreTelephony.framework */; };
+		3C5765D41CE30BA600C45FB9 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765D31CE30BA600C45FB9 /* EventKit.framework */; };
+		3C5765D61CE30BAE00C45FB9 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765D51CE30BAE00C45FB9 /* EventKitUI.framework */; };
+		3C5765D81CE30BB700C45FB9 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765D71CE30BB700C45FB9 /* MessageUI.framework */; };
+		3C5765DA1CE30BBE00C45FB9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765D91CE30BBE00C45FB9 /* StoreKit.framework */; };
+		3C5765DC1CE30BC900C45FB9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765DB1CE30BC900C45FB9 /* SystemConfiguration.framework */; };
+		3C5765E21CE311D400C45FB9 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5765E11CE311D400C45FB9 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5765AD1CE3096200C45FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5765901CE3096200C45FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5765971CE3096200C45FB9;
+			remoteInfo = sampleAdMob;
+		};
+		3C5765B81CE3096200C45FB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5765901CE3096200C45FB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5765971CE3096200C45FB9;
+			remoteInfo = sampleAdMob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5765981CE3096200C45FB9 /* sampleAdMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleAdMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C57659B1CE3096200C45FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3C57659D1CE3096200C45FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3C5765A01CE3096200C45FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5765A21CE3096200C45FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C5765A51CE3096200C45FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C5765A71CE3096200C45FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5765AC1CE3096200C45FB9 /* sampleAdMobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleAdMobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5765B01CE3096200C45FB9 /* sampleAdMobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAdMobTests.swift; sourceTree = "<group>"; };
+		3C5765B21CE3096200C45FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5765B71CE3096200C45FB9 /* sampleAdMobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleAdMobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5765BB1CE3096200C45FB9 /* sampleAdMobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleAdMobUITests.swift; sourceTree = "<group>"; };
+		3C5765BD1CE3096200C45FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C5765C91CE30B6B00C45FB9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3C5765CB1CE30B7F00C45FB9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3C5765CD1CE30B8600C45FB9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C5765CF1CE30B8F00C45FB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C5765D11CE30B9B00C45FB9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		3C5765D31CE30BA600C45FB9 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		3C5765D51CE30BAE00C45FB9 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		3C5765D71CE30BB700C45FB9 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		3C5765D91CE30BBE00C45FB9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C5765DB1CE30BC900C45FB9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C5765E11CE311D400C45FB9 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5765951CE3096200C45FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5765DC1CE30BC900C45FB9 /* SystemConfiguration.framework in Frameworks */,
+				3C5765DA1CE30BBE00C45FB9 /* StoreKit.framework in Frameworks */,
+				3C5765D81CE30BB700C45FB9 /* MessageUI.framework in Frameworks */,
+				3C5765E21CE311D400C45FB9 /* GoogleMobileAds.framework in Frameworks */,
+				3C5765D61CE30BAE00C45FB9 /* EventKitUI.framework in Frameworks */,
+				3C5765D41CE30BA600C45FB9 /* EventKit.framework in Frameworks */,
+				3C5765D21CE30B9B00C45FB9 /* CoreTelephony.framework in Frameworks */,
+				3C5765D01CE30B8F00C45FB9 /* CoreGraphics.framework in Frameworks */,
+				3C5765CE1CE30B8600C45FB9 /* AVFoundation.framework in Frameworks */,
+				3C5765CC1CE30B7F00C45FB9 /* AudioToolbox.framework in Frameworks */,
+				3C5765CA1CE30B6B00C45FB9 /* AdSupport.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765A91CE3096200C45FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765B41CE3096200C45FB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C57658F1CE3096200C45FB9 = {
+			isa = PBXGroup;
+			children = (
+				3C5765DB1CE30BC900C45FB9 /* SystemConfiguration.framework */,
+				3C5765D91CE30BBE00C45FB9 /* StoreKit.framework */,
+				3C5765D71CE30BB700C45FB9 /* MessageUI.framework */,
+				3C5765D51CE30BAE00C45FB9 /* EventKitUI.framework */,
+				3C5765D31CE30BA600C45FB9 /* EventKit.framework */,
+				3C5765D11CE30B9B00C45FB9 /* CoreTelephony.framework */,
+				3C5765CF1CE30B8F00C45FB9 /* CoreGraphics.framework */,
+				3C5765CD1CE30B8600C45FB9 /* AVFoundation.framework */,
+				3C5765CB1CE30B7F00C45FB9 /* AudioToolbox.framework */,
+				3C5765C91CE30B6B00C45FB9 /* AdSupport.framework */,
+				3C57659A1CE3096200C45FB9 /* sampleAdMob */,
+				3C5765AF1CE3096200C45FB9 /* sampleAdMobTests */,
+				3C5765BA1CE3096200C45FB9 /* sampleAdMobUITests */,
+				3C5765991CE3096200C45FB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5765991CE3096200C45FB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5765981CE3096200C45FB9 /* sampleAdMob.app */,
+				3C5765AC1CE3096200C45FB9 /* sampleAdMobTests.xctest */,
+				3C5765B71CE3096200C45FB9 /* sampleAdMobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C57659A1CE3096200C45FB9 /* sampleAdMob */ = {
+			isa = PBXGroup;
+			children = (
+				3C5765E11CE311D400C45FB9 /* GoogleMobileAds.framework */,
+				3C57659B1CE3096200C45FB9 /* AppDelegate.swift */,
+				3C57659D1CE3096200C45FB9 /* ViewController.swift */,
+				3C57659F1CE3096200C45FB9 /* Main.storyboard */,
+				3C5765A21CE3096200C45FB9 /* Assets.xcassets */,
+				3C5765A41CE3096200C45FB9 /* LaunchScreen.storyboard */,
+				3C5765A71CE3096200C45FB9 /* Info.plist */,
+			);
+			path = sampleAdMob;
+			sourceTree = "<group>";
+		};
+		3C5765AF1CE3096200C45FB9 /* sampleAdMobTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5765B01CE3096200C45FB9 /* sampleAdMobTests.swift */,
+				3C5765B21CE3096200C45FB9 /* Info.plist */,
+			);
+			path = sampleAdMobTests;
+			sourceTree = "<group>";
+		};
+		3C5765BA1CE3096200C45FB9 /* sampleAdMobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5765BB1CE3096200C45FB9 /* sampleAdMobUITests.swift */,
+				3C5765BD1CE3096200C45FB9 /* Info.plist */,
+			);
+			path = sampleAdMobUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5765971CE3096200C45FB9 /* sampleAdMob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5765C01CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMob" */;
+			buildPhases = (
+				3C5765941CE3096200C45FB9 /* Sources */,
+				3C5765951CE3096200C45FB9 /* Frameworks */,
+				3C5765961CE3096200C45FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleAdMob;
+			productName = sampleAdMob;
+			productReference = 3C5765981CE3096200C45FB9 /* sampleAdMob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5765AB1CE3096200C45FB9 /* sampleAdMobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5765C31CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMobTests" */;
+			buildPhases = (
+				3C5765A81CE3096200C45FB9 /* Sources */,
+				3C5765A91CE3096200C45FB9 /* Frameworks */,
+				3C5765AA1CE3096200C45FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5765AE1CE3096200C45FB9 /* PBXTargetDependency */,
+			);
+			name = sampleAdMobTests;
+			productName = sampleAdMobTests;
+			productReference = 3C5765AC1CE3096200C45FB9 /* sampleAdMobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C5765B61CE3096200C45FB9 /* sampleAdMobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5765C61CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMobUITests" */;
+			buildPhases = (
+				3C5765B31CE3096200C45FB9 /* Sources */,
+				3C5765B41CE3096200C45FB9 /* Frameworks */,
+				3C5765B51CE3096200C45FB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5765B91CE3096200C45FB9 /* PBXTargetDependency */,
+			);
+			name = sampleAdMobUITests;
+			productName = sampleAdMobUITests;
+			productReference = 3C5765B71CE3096200C45FB9 /* sampleAdMobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5765901CE3096200C45FB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = satoshiii;
+				TargetAttributes = {
+					3C5765971CE3096200C45FB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 445HFT775Z;
+					};
+					3C5765AB1CE3096200C45FB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3C5765971CE3096200C45FB9;
+					};
+					3C5765B61CE3096200C45FB9 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3C5765971CE3096200C45FB9;
+					};
+				};
+			};
+			buildConfigurationList = 3C5765931CE3096200C45FB9 /* Build configuration list for PBXProject "sampleAdMob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C57658F1CE3096200C45FB9;
+			productRefGroup = 3C5765991CE3096200C45FB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5765971CE3096200C45FB9 /* sampleAdMob */,
+				3C5765AB1CE3096200C45FB9 /* sampleAdMobTests */,
+				3C5765B61CE3096200C45FB9 /* sampleAdMobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5765961CE3096200C45FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5765A61CE3096200C45FB9 /* LaunchScreen.storyboard in Resources */,
+				3C5765A31CE3096200C45FB9 /* Assets.xcassets in Resources */,
+				3C5765A11CE3096200C45FB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765AA1CE3096200C45FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765B51CE3096200C45FB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5765941CE3096200C45FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C57659E1CE3096200C45FB9 /* ViewController.swift in Sources */,
+				3C57659C1CE3096200C45FB9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765A81CE3096200C45FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5765B11CE3096200C45FB9 /* sampleAdMobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5765B31CE3096200C45FB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5765BC1CE3096200C45FB9 /* sampleAdMobUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5765AE1CE3096200C45FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5765971CE3096200C45FB9 /* sampleAdMob */;
+			targetProxy = 3C5765AD1CE3096200C45FB9 /* PBXContainerItemProxy */;
+		};
+		3C5765B91CE3096200C45FB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5765971CE3096200C45FB9 /* sampleAdMob */;
+			targetProxy = 3C5765B81CE3096200C45FB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C57659F1CE3096200C45FB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5765A01CE3096200C45FB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5765A41CE3096200C45FB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5765A51CE3096200C45FB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5765BE1CE3096200C45FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C5765BF1CE3096200C45FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5765C11CE3096200C45FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sampleAdMob",
+				);
+				INFOPLIST_FILE = sampleAdMob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3C5765C21CE3096200C45FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/sampleAdMob",
+				);
+				INFOPLIST_FILE = sampleAdMob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3C5765C41CE3096200C45FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleAdMobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAdMob.app/sampleAdMob";
+			};
+			name = Debug;
+		};
+		3C5765C51CE3096200C45FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleAdMobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleAdMob.app/sampleAdMob";
+			};
+			name = Release;
+		};
+		3C5765C71CE3096200C45FB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleAdMobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleAdMob;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3C5765C81CE3096200C45FB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleAdMobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.satoshiii.sampleAdMobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = sampleAdMob;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5765931CE3096200C45FB9 /* Build configuration list for PBXProject "sampleAdMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5765BE1CE3096200C45FB9 /* Debug */,
+				3C5765BF1CE3096200C45FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5765C01CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5765C11CE3096200C45FB9 /* Debug */,
+				3C5765C21CE3096200C45FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5765C31CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5765C41CE3096200C45FB9 /* Debug */,
+				3C5765C51CE3096200C45FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5765C61CE3096200C45FB9 /* Build configuration list for PBXNativeTarget "sampleAdMobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5765C71CE3096200C45FB9 /* Debug */,
+				3C5765C81CE3096200C45FB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5765901CE3096200C45FB9 /* Project object */;
+}
